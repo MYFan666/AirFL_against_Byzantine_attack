@@ -1,0 +1,1802 @@
+2023-01-05 14:11:32,702 - mytest - INFO - fed_learn_cifar_cnn
+2023-01-05 14:11:37,480 - mytest - INFO - Namespace(epochs=300, num_users=60, frac=1.0, local_ep=1, local_bs=50, bs=50, lr=0.0001, momentum=0, split='user', model='cnn', kernel_num=9, kernel_sizes='3,4,5', norm='batch_norm', num_filters=32, max_pool='True', dataset='mnist', iid=False, num_classes=10, num_channels=1, gpu=0, stopping_rounds=10, verbose=False, seed=1, lr_scheduler=False, mode='EF', snr=10, delta=0.01, thd=1, bzt=0.2, device=device(type='cuda', index=0))
+2023-01-05 14:11:47,665 - mytest - INFO - Epoch: 1
+2023-01-05 14:11:47,665 - mytest - INFO - Train loss: 2.2964
+2023-01-05 14:12:05,904 - mytest - INFO - average train acc: 14.19%
+2023-01-05 14:12:05,905 - mytest - INFO - average train loss: 2.2950
+2023-01-05 14:12:05,907 - mytest - INFO - average test acc: 14.37%
+2023-01-05 14:12:05,907 - mytest - INFO - average test loss: 2.2956
+2023-01-05 14:12:17,192 - mytest - INFO - Epoch: 2
+2023-01-05 14:12:17,192 - mytest - INFO - Train loss: 2.2899
+2023-01-05 14:12:38,097 - mytest - INFO - average train acc: 15.53%
+2023-01-05 14:12:38,098 - mytest - INFO - average train loss: 2.2912
+2023-01-05 14:12:38,098 - mytest - INFO - average test acc: 15.86%
+2023-01-05 14:12:38,098 - mytest - INFO - average test loss: 2.2916
+2023-01-05 14:12:50,265 - mytest - INFO - Epoch: 3
+2023-01-05 14:12:50,266 - mytest - INFO - Train loss: 2.2865
+2023-01-05 14:13:11,760 - mytest - INFO - average train acc: 18.71%
+2023-01-05 14:13:11,778 - mytest - INFO - average train loss: 2.2855
+2023-01-05 14:13:11,778 - mytest - INFO - average test acc: 19.08%
+2023-01-05 14:13:11,778 - mytest - INFO - average test loss: 2.2858
+2023-01-05 14:13:24,893 - mytest - INFO - Epoch: 4
+2023-01-05 14:13:24,893 - mytest - INFO - Train loss: 2.2800
+2023-01-05 14:13:46,952 - mytest - INFO - average train acc: 18.71%
+2023-01-05 14:13:46,952 - mytest - INFO - average train loss: 2.2803
+2023-01-05 14:13:46,952 - mytest - INFO - average test acc: 19.55%
+2023-01-05 14:13:46,952 - mytest - INFO - average test loss: 2.2803
+2023-01-05 14:13:59,873 - mytest - INFO - Epoch: 5
+2023-01-05 14:13:59,874 - mytest - INFO - Train loss: 2.2739
+2023-01-05 14:14:22,474 - mytest - INFO - average train acc: 19.17%
+2023-01-05 14:14:22,483 - mytest - INFO - average train loss: 2.2769
+2023-01-05 14:14:22,483 - mytest - INFO - average test acc: 19.18%
+2023-01-05 14:14:22,483 - mytest - INFO - average test loss: 2.2770
+2023-01-05 14:14:35,982 - mytest - INFO - Epoch: 6
+2023-01-05 14:14:35,982 - mytest - INFO - Train loss: 2.2712
+2023-01-05 14:14:58,273 - mytest - INFO - average train acc: 22.13%
+2023-01-05 14:14:58,273 - mytest - INFO - average train loss: 2.2720
+2023-01-05 14:14:58,273 - mytest - INFO - average test acc: 22.46%
+2023-01-05 14:14:58,273 - mytest - INFO - average test loss: 2.2719
+2023-01-05 14:15:12,092 - mytest - INFO - Epoch: 7
+2023-01-05 14:15:12,092 - mytest - INFO - Train loss: 2.2656
+2023-01-05 14:15:34,387 - mytest - INFO - average train acc: 18.72%
+2023-01-05 14:15:34,387 - mytest - INFO - average train loss: 2.2673
+2023-01-05 14:15:34,387 - mytest - INFO - average test acc: 19.42%
+2023-01-05 14:15:34,387 - mytest - INFO - average test loss: 2.2670
+2023-01-05 14:15:47,095 - mytest - INFO - Epoch: 8
+2023-01-05 14:15:47,095 - mytest - INFO - Train loss: 2.2602
+2023-01-05 14:16:09,482 - mytest - INFO - average train acc: 18.87%
+2023-01-05 14:16:09,482 - mytest - INFO - average train loss: 2.2637
+2023-01-05 14:16:09,482 - mytest - INFO - average test acc: 19.42%
+2023-01-05 14:16:09,482 - mytest - INFO - average test loss: 2.2633
+2023-01-05 14:16:23,029 - mytest - INFO - Epoch: 9
+2023-01-05 14:16:23,029 - mytest - INFO - Train loss: 2.2560
+2023-01-05 14:16:44,393 - mytest - INFO - average train acc: 19.32%
+2023-01-05 14:16:44,393 - mytest - INFO - average train loss: 2.2605
+2023-01-05 14:16:44,393 - mytest - INFO - average test acc: 19.77%
+2023-01-05 14:16:44,393 - mytest - INFO - average test loss: 2.2602
+2023-01-05 14:16:57,288 - mytest - INFO - Epoch: 10
+2023-01-05 14:16:57,288 - mytest - INFO - Train loss: 2.2517
+2023-01-05 14:17:19,160 - mytest - INFO - average train acc: 17.70%
+2023-01-05 14:17:19,160 - mytest - INFO - average train loss: 2.2572
+2023-01-05 14:17:19,160 - mytest - INFO - average test acc: 17.98%
+2023-01-05 14:17:19,160 - mytest - INFO - average test loss: 2.2566
+2023-01-05 14:17:32,514 - mytest - INFO - Epoch: 11
+2023-01-05 14:17:32,530 - mytest - INFO - Train loss: 2.2468
+2023-01-05 14:17:54,825 - mytest - INFO - average train acc: 18.22%
+2023-01-05 14:17:54,825 - mytest - INFO - average train loss: 2.2514
+2023-01-05 14:17:54,825 - mytest - INFO - average test acc: 18.61%
+2023-01-05 14:17:54,825 - mytest - INFO - average test loss: 2.2506
+2023-01-05 14:18:08,574 - mytest - INFO - Epoch: 12
+2023-01-05 14:18:08,575 - mytest - INFO - Train loss: 2.2414
+2023-01-05 14:18:30,449 - mytest - INFO - average train acc: 17.55%
+2023-01-05 14:18:30,449 - mytest - INFO - average train loss: 2.2475
+2023-01-05 14:18:30,449 - mytest - INFO - average test acc: 17.85%
+2023-01-05 14:18:30,449 - mytest - INFO - average test loss: 2.2465
+2023-01-05 14:18:43,563 - mytest - INFO - Epoch: 13
+2023-01-05 14:18:43,563 - mytest - INFO - Train loss: 2.2363
+2023-01-05 14:19:05,786 - mytest - INFO - average train acc: 17.98%
+2023-01-05 14:19:05,792 - mytest - INFO - average train loss: 2.2449
+2023-01-05 14:19:05,792 - mytest - INFO - average test acc: 18.25%
+2023-01-05 14:19:05,793 - mytest - INFO - average test loss: 2.2439
+2023-01-05 14:19:18,318 - mytest - INFO - Epoch: 14
+2023-01-05 14:19:18,319 - mytest - INFO - Train loss: 2.2340
+2023-01-05 14:19:40,431 - mytest - INFO - average train acc: 16.81%
+2023-01-05 14:19:40,431 - mytest - INFO - average train loss: 2.2421
+2023-01-05 14:19:40,431 - mytest - INFO - average test acc: 17.07%
+2023-01-05 14:19:40,431 - mytest - INFO - average test loss: 2.2411
+2023-01-05 14:19:54,311 - mytest - INFO - Epoch: 15
+2023-01-05 14:19:54,311 - mytest - INFO - Train loss: 2.2292
+2023-01-05 14:20:16,298 - mytest - INFO - average train acc: 14.49%
+2023-01-05 14:20:16,298 - mytest - INFO - average train loss: 2.2381
+2023-01-05 14:20:16,298 - mytest - INFO - average test acc: 14.51%
+2023-01-05 14:20:16,298 - mytest - INFO - average test loss: 2.2369
+2023-01-05 14:20:29,625 - mytest - INFO - Epoch: 16
+2023-01-05 14:20:29,625 - mytest - INFO - Train loss: 2.2242
+2023-01-05 14:20:52,005 - mytest - INFO - average train acc: 11.48%
+2023-01-05 14:20:52,005 - mytest - INFO - average train loss: 2.2379
+2023-01-05 14:20:52,005 - mytest - INFO - average test acc: 11.57%
+2023-01-05 14:20:52,005 - mytest - INFO - average test loss: 2.2368
+2023-01-05 14:21:05,219 - mytest - INFO - Epoch: 17
+2023-01-05 14:21:05,219 - mytest - INFO - Train loss: 2.2223
+2023-01-05 14:21:26,791 - mytest - INFO - average train acc: 11.07%
+2023-01-05 14:21:26,791 - mytest - INFO - average train loss: 2.2347
+2023-01-05 14:21:26,791 - mytest - INFO - average test acc: 11.14%
+2023-01-05 14:21:26,791 - mytest - INFO - average test loss: 2.2334
+2023-01-05 14:21:38,957 - mytest - INFO - Epoch: 18
+2023-01-05 14:21:38,963 - mytest - INFO - Train loss: 2.2193
+2023-01-05 14:22:00,789 - mytest - INFO - average train acc: 14.39%
+2023-01-05 14:22:00,789 - mytest - INFO - average train loss: 2.2298
+2023-01-05 14:22:00,789 - mytest - INFO - average test acc: 14.07%
+2023-01-05 14:22:00,789 - mytest - INFO - average test loss: 2.2285
+2023-01-05 14:22:13,369 - mytest - INFO - Epoch: 19
+2023-01-05 14:22:13,369 - mytest - INFO - Train loss: 2.2149
+2023-01-05 14:22:36,349 - mytest - INFO - average train acc: 19.68%
+2023-01-05 14:22:36,349 - mytest - INFO - average train loss: 2.2245
+2023-01-05 14:22:36,349 - mytest - INFO - average test acc: 19.86%
+2023-01-05 14:22:36,349 - mytest - INFO - average test loss: 2.2233
+2023-01-05 14:22:50,848 - mytest - INFO - Epoch: 20
+2023-01-05 14:22:50,848 - mytest - INFO - Train loss: 2.2101
+2023-01-05 14:23:13,220 - mytest - INFO - average train acc: 16.73%
+2023-01-05 14:23:13,220 - mytest - INFO - average train loss: 2.2206
+2023-01-05 14:23:13,221 - mytest - INFO - average test acc: 16.54%
+2023-01-05 14:23:13,221 - mytest - INFO - average test loss: 2.2192
+2023-01-05 14:23:25,555 - mytest - INFO - Epoch: 21
+2023-01-05 14:23:25,555 - mytest - INFO - Train loss: 2.2059
+2023-01-05 14:23:48,117 - mytest - INFO - average train acc: 21.17%
+2023-01-05 14:23:48,117 - mytest - INFO - average train loss: 2.2168
+2023-01-05 14:23:48,117 - mytest - INFO - average test acc: 20.88%
+2023-01-05 14:23:48,117 - mytest - INFO - average test loss: 2.2154
+2023-01-05 14:24:01,003 - mytest - INFO - Epoch: 22
+2023-01-05 14:24:01,003 - mytest - INFO - Train loss: 2.2018
+2023-01-05 14:24:23,459 - mytest - INFO - average train acc: 28.53%
+2023-01-05 14:24:23,459 - mytest - INFO - average train loss: 2.2140
+2023-01-05 14:24:23,459 - mytest - INFO - average test acc: 28.85%
+2023-01-05 14:24:23,459 - mytest - INFO - average test loss: 2.2128
+2023-01-05 14:24:35,701 - mytest - INFO - Epoch: 23
+2023-01-05 14:24:35,701 - mytest - INFO - Train loss: 2.1986
+2023-01-05 14:24:57,680 - mytest - INFO - average train acc: 25.15%
+2023-01-05 14:24:57,680 - mytest - INFO - average train loss: 2.2092
+2023-01-05 14:24:57,680 - mytest - INFO - average test acc: 25.17%
+2023-01-05 14:24:57,680 - mytest - INFO - average test loss: 2.2079
+2023-01-05 14:25:10,923 - mytest - INFO - Epoch: 24
+2023-01-05 14:25:10,923 - mytest - INFO - Train loss: 2.1927
+2023-01-05 14:25:33,518 - mytest - INFO - average train acc: 24.68%
+2023-01-05 14:25:33,518 - mytest - INFO - average train loss: 2.2054
+2023-01-05 14:25:33,518 - mytest - INFO - average test acc: 24.85%
+2023-01-05 14:25:33,518 - mytest - INFO - average test loss: 2.2040
+2023-01-05 14:25:45,957 - mytest - INFO - Epoch: 25
+2023-01-05 14:25:45,958 - mytest - INFO - Train loss: 2.1877
+2023-01-05 14:26:07,936 - mytest - INFO - average train acc: 29.62%
+2023-01-05 14:26:07,936 - mytest - INFO - average train loss: 2.2012
+2023-01-05 14:26:07,936 - mytest - INFO - average test acc: 29.98%
+2023-01-05 14:26:07,936 - mytest - INFO - average test loss: 2.1999
+2023-01-05 14:26:20,907 - mytest - INFO - Epoch: 26
+2023-01-05 14:26:20,907 - mytest - INFO - Train loss: 2.1830
+2023-01-05 14:26:42,953 - mytest - INFO - average train acc: 21.38%
+2023-01-05 14:26:42,953 - mytest - INFO - average train loss: 2.1981
+2023-01-05 14:26:42,953 - mytest - INFO - average test acc: 21.07%
+2023-01-05 14:26:42,953 - mytest - INFO - average test loss: 2.1965
+2023-01-05 14:26:55,705 - mytest - INFO - Epoch: 27
+2023-01-05 14:26:55,705 - mytest - INFO - Train loss: 2.1766
+2023-01-05 14:27:18,056 - mytest - INFO - average train acc: 19.26%
+2023-01-05 14:27:18,056 - mytest - INFO - average train loss: 2.1939
+2023-01-05 14:27:18,056 - mytest - INFO - average test acc: 18.90%
+2023-01-05 14:27:18,056 - mytest - INFO - average test loss: 2.1921
+2023-01-05 14:27:30,555 - mytest - INFO - Epoch: 28
+2023-01-05 14:27:30,555 - mytest - INFO - Train loss: 2.1721
+2023-01-05 14:27:52,977 - mytest - INFO - average train acc: 19.85%
+2023-01-05 14:27:52,977 - mytest - INFO - average train loss: 2.1893
+2023-01-05 14:27:52,977 - mytest - INFO - average test acc: 19.32%
+2023-01-05 14:27:52,977 - mytest - INFO - average test loss: 2.1874
+2023-01-05 14:28:05,632 - mytest - INFO - Epoch: 29
+2023-01-05 14:28:05,632 - mytest - INFO - Train loss: 2.1676
+2023-01-05 14:28:27,697 - mytest - INFO - average train acc: 24.72%
+2023-01-05 14:28:27,697 - mytest - INFO - average train loss: 2.1829
+2023-01-05 14:28:27,697 - mytest - INFO - average test acc: 24.80%
+2023-01-05 14:28:27,698 - mytest - INFO - average test loss: 2.1809
+2023-01-05 14:28:40,425 - mytest - INFO - Epoch: 30
+2023-01-05 14:28:40,425 - mytest - INFO - Train loss: 2.1628
+2023-01-05 14:29:02,316 - mytest - INFO - average train acc: 24.05%
+2023-01-05 14:29:02,316 - mytest - INFO - average train loss: 2.1784
+2023-01-05 14:29:02,316 - mytest - INFO - average test acc: 24.17%
+2023-01-05 14:29:02,316 - mytest - INFO - average test loss: 2.1763
+2023-01-05 14:29:15,292 - mytest - INFO - Epoch: 31
+2023-01-05 14:29:15,292 - mytest - INFO - Train loss: 2.1561
+2023-01-05 14:29:37,176 - mytest - INFO - average train acc: 24.95%
+2023-01-05 14:29:37,176 - mytest - INFO - average train loss: 2.1761
+2023-01-05 14:29:37,176 - mytest - INFO - average test acc: 24.83%
+2023-01-05 14:29:37,176 - mytest - INFO - average test loss: 2.1739
+2023-01-05 14:29:49,931 - mytest - INFO - Epoch: 32
+2023-01-05 14:29:49,940 - mytest - INFO - Train loss: 2.1521
+2023-01-05 14:30:12,490 - mytest - INFO - average train acc: 23.82%
+2023-01-05 14:30:12,490 - mytest - INFO - average train loss: 2.1707
+2023-01-05 14:30:12,490 - mytest - INFO - average test acc: 23.62%
+2023-01-05 14:30:12,490 - mytest - INFO - average test loss: 2.1683
+2023-01-05 14:30:26,137 - mytest - INFO - Epoch: 33
+2023-01-05 14:30:26,138 - mytest - INFO - Train loss: 2.1465
+2023-01-05 14:30:48,465 - mytest - INFO - average train acc: 27.02%
+2023-01-05 14:30:48,465 - mytest - INFO - average train loss: 2.1655
+2023-01-05 14:30:48,466 - mytest - INFO - average test acc: 26.94%
+2023-01-05 14:30:48,466 - mytest - INFO - average test loss: 2.1631
+2023-01-05 14:31:01,515 - mytest - INFO - Epoch: 34
+2023-01-05 14:31:01,515 - mytest - INFO - Train loss: 2.1403
+2023-01-05 14:31:24,361 - mytest - INFO - average train acc: 35.99%
+2023-01-05 14:31:24,361 - mytest - INFO - average train loss: 2.1613
+2023-01-05 14:31:24,361 - mytest - INFO - average test acc: 35.98%
+2023-01-05 14:31:24,361 - mytest - INFO - average test loss: 2.1591
+2023-01-05 14:31:37,415 - mytest - INFO - Epoch: 35
+2023-01-05 14:31:37,415 - mytest - INFO - Train loss: 2.1361
+2023-01-05 14:31:59,260 - mytest - INFO - average train acc: 38.97%
+2023-01-05 14:31:59,260 - mytest - INFO - average train loss: 2.1559
+2023-01-05 14:31:59,260 - mytest - INFO - average test acc: 39.63%
+2023-01-05 14:31:59,260 - mytest - INFO - average test loss: 2.1536
+2023-01-05 14:32:11,997 - mytest - INFO - Epoch: 36
+2023-01-05 14:32:12,025 - mytest - INFO - Train loss: 2.1312
+2023-01-05 14:32:34,137 - mytest - INFO - average train acc: 31.91%
+2023-01-05 14:32:34,137 - mytest - INFO - average train loss: 2.1505
+2023-01-05 14:32:34,137 - mytest - INFO - average test acc: 31.63%
+2023-01-05 14:32:34,137 - mytest - INFO - average test loss: 2.1480
+2023-01-05 14:32:46,642 - mytest - INFO - Epoch: 37
+2023-01-05 14:32:46,643 - mytest - INFO - Train loss: 2.1258
+2023-01-05 14:33:08,909 - mytest - INFO - average train acc: 32.34%
+2023-01-05 14:33:08,910 - mytest - INFO - average train loss: 2.1449
+2023-01-05 14:33:08,910 - mytest - INFO - average test acc: 32.47%
+2023-01-05 14:33:08,910 - mytest - INFO - average test loss: 2.1422
+2023-01-05 14:33:22,110 - mytest - INFO - Epoch: 38
+2023-01-05 14:33:22,110 - mytest - INFO - Train loss: 2.1214
+2023-01-05 14:33:44,331 - mytest - INFO - average train acc: 27.56%
+2023-01-05 14:33:44,332 - mytest - INFO - average train loss: 2.1432
+2023-01-05 14:33:44,332 - mytest - INFO - average test acc: 27.41%
+2023-01-05 14:33:44,332 - mytest - INFO - average test loss: 2.1403
+2023-01-05 14:33:56,612 - mytest - INFO - Epoch: 39
+2023-01-05 14:33:56,612 - mytest - INFO - Train loss: 2.1173
+2023-01-05 14:34:19,274 - mytest - INFO - average train acc: 28.34%
+2023-01-05 14:34:19,275 - mytest - INFO - average train loss: 2.1388
+2023-01-05 14:34:19,275 - mytest - INFO - average test acc: 28.33%
+2023-01-05 14:34:19,275 - mytest - INFO - average test loss: 2.1357
+2023-01-05 14:34:31,738 - mytest - INFO - Epoch: 40
+2023-01-05 14:34:31,738 - mytest - INFO - Train loss: 2.1130
+2023-01-05 14:34:53,069 - mytest - INFO - average train acc: 27.59%
+2023-01-05 14:34:53,069 - mytest - INFO - average train loss: 2.1362
+2023-01-05 14:34:53,069 - mytest - INFO - average test acc: 27.43%
+2023-01-05 14:34:53,069 - mytest - INFO - average test loss: 2.1330
+2023-01-05 14:35:06,433 - mytest - INFO - Epoch: 41
+2023-01-05 14:35:06,435 - mytest - INFO - Train loss: 2.1082
+2023-01-05 14:35:28,678 - mytest - INFO - average train acc: 30.84%
+2023-01-05 14:35:28,678 - mytest - INFO - average train loss: 2.1285
+2023-01-05 14:35:28,678 - mytest - INFO - average test acc: 30.61%
+2023-01-05 14:35:28,678 - mytest - INFO - average test loss: 2.1251
+2023-01-05 14:35:41,642 - mytest - INFO - Epoch: 42
+2023-01-05 14:35:41,643 - mytest - INFO - Train loss: 2.1019
+2023-01-05 14:36:03,665 - mytest - INFO - average train acc: 32.88%
+2023-01-05 14:36:03,666 - mytest - INFO - average train loss: 2.1253
+2023-01-05 14:36:03,666 - mytest - INFO - average test acc: 32.55%
+2023-01-05 14:36:03,666 - mytest - INFO - average test loss: 2.1223
+2023-01-05 14:36:17,791 - mytest - INFO - Epoch: 43
+2023-01-05 14:36:17,791 - mytest - INFO - Train loss: 2.0983
+2023-01-05 14:36:40,285 - mytest - INFO - average train acc: 31.85%
+2023-01-05 14:36:40,290 - mytest - INFO - average train loss: 2.1205
+2023-01-05 14:36:40,290 - mytest - INFO - average test acc: 31.45%
+2023-01-05 14:36:40,290 - mytest - INFO - average test loss: 2.1172
+2023-01-05 14:36:53,062 - mytest - INFO - Epoch: 44
+2023-01-05 14:36:53,062 - mytest - INFO - Train loss: 2.0926
+2023-01-05 14:37:15,089 - mytest - INFO - average train acc: 24.78%
+2023-01-05 14:37:15,090 - mytest - INFO - average train loss: 2.1167
+2023-01-05 14:37:15,090 - mytest - INFO - average test acc: 24.41%
+2023-01-05 14:37:15,090 - mytest - INFO - average test loss: 2.1131
+2023-01-05 14:37:27,134 - mytest - INFO - Epoch: 45
+2023-01-05 14:37:27,134 - mytest - INFO - Train loss: 2.0888
+2023-01-05 14:37:49,408 - mytest - INFO - average train acc: 24.58%
+2023-01-05 14:37:49,408 - mytest - INFO - average train loss: 2.1107
+2023-01-05 14:37:49,408 - mytest - INFO - average test acc: 24.06%
+2023-01-05 14:37:49,408 - mytest - INFO - average test loss: 2.1068
+2023-01-05 14:38:01,858 - mytest - INFO - Epoch: 46
+2023-01-05 14:38:01,858 - mytest - INFO - Train loss: 2.0817
+2023-01-05 14:38:24,079 - mytest - INFO - average train acc: 27.90%
+2023-01-05 14:38:24,079 - mytest - INFO - average train loss: 2.1070
+2023-01-05 14:38:24,079 - mytest - INFO - average test acc: 27.74%
+2023-01-05 14:38:24,080 - mytest - INFO - average test loss: 2.1032
+2023-01-05 14:38:37,700 - mytest - INFO - Epoch: 47
+2023-01-05 14:38:37,700 - mytest - INFO - Train loss: 2.0775
+2023-01-05 14:39:00,333 - mytest - INFO - average train acc: 28.75%
+2023-01-05 14:39:00,333 - mytest - INFO - average train loss: 2.0998
+2023-01-05 14:39:00,333 - mytest - INFO - average test acc: 28.82%
+2023-01-05 14:39:00,333 - mytest - INFO - average test loss: 2.0959
+2023-01-05 14:39:13,114 - mytest - INFO - Epoch: 48
+2023-01-05 14:39:13,115 - mytest - INFO - Train loss: 2.0713
+2023-01-05 14:39:35,949 - mytest - INFO - average train acc: 29.83%
+2023-01-05 14:39:35,949 - mytest - INFO - average train loss: 2.0975
+2023-01-05 14:39:35,949 - mytest - INFO - average test acc: 29.68%
+2023-01-05 14:39:35,949 - mytest - INFO - average test loss: 2.0937
+2023-01-05 14:39:49,458 - mytest - INFO - Epoch: 49
+2023-01-05 14:39:49,458 - mytest - INFO - Train loss: 2.0683
+2023-01-05 14:40:11,445 - mytest - INFO - average train acc: 30.41%
+2023-01-05 14:40:11,445 - mytest - INFO - average train loss: 2.0888
+2023-01-05 14:40:11,445 - mytest - INFO - average test acc: 30.34%
+2023-01-05 14:40:11,445 - mytest - INFO - average test loss: 2.0848
+2023-01-05 14:40:24,552 - mytest - INFO - Epoch: 50
+2023-01-05 14:40:24,552 - mytest - INFO - Train loss: 2.0615
+2023-01-05 14:40:46,472 - mytest - INFO - average train acc: 35.53%
+2023-01-05 14:40:46,473 - mytest - INFO - average train loss: 2.0846
+2023-01-05 14:40:46,473 - mytest - INFO - average test acc: 35.56%
+2023-01-05 14:40:46,473 - mytest - INFO - average test loss: 2.0806
+2023-01-05 14:40:59,236 - mytest - INFO - Epoch: 51
+2023-01-05 14:40:59,236 - mytest - INFO - Train loss: 2.0574
+2023-01-05 14:41:21,646 - mytest - INFO - average train acc: 43.38%
+2023-01-05 14:41:21,646 - mytest - INFO - average train loss: 2.0818
+2023-01-05 14:41:21,646 - mytest - INFO - average test acc: 43.78%
+2023-01-05 14:41:21,646 - mytest - INFO - average test loss: 2.0781
+2023-01-05 14:41:34,543 - mytest - INFO - Epoch: 52
+2023-01-05 14:41:34,543 - mytest - INFO - Train loss: 2.0536
+2023-01-05 14:41:56,737 - mytest - INFO - average train acc: 42.06%
+2023-01-05 14:41:56,737 - mytest - INFO - average train loss: 2.0777
+2023-01-05 14:41:56,738 - mytest - INFO - average test acc: 42.35%
+2023-01-05 14:41:56,738 - mytest - INFO - average test loss: 2.0738
+2023-01-05 14:42:09,135 - mytest - INFO - Epoch: 53
+2023-01-05 14:42:09,135 - mytest - INFO - Train loss: 2.0480
+2023-01-05 14:42:32,370 - mytest - INFO - average train acc: 45.40%
+2023-01-05 14:42:32,370 - mytest - INFO - average train loss: 2.0710
+2023-01-05 14:42:32,370 - mytest - INFO - average test acc: 45.64%
+2023-01-05 14:42:32,370 - mytest - INFO - average test loss: 2.0671
+2023-01-05 14:42:45,587 - mytest - INFO - Epoch: 54
+2023-01-05 14:42:45,587 - mytest - INFO - Train loss: 2.0420
+2023-01-05 14:43:08,865 - mytest - INFO - average train acc: 44.15%
+2023-01-05 14:43:08,865 - mytest - INFO - average train loss: 2.0665
+2023-01-05 14:43:08,865 - mytest - INFO - average test acc: 44.06%
+2023-01-05 14:43:08,865 - mytest - INFO - average test loss: 2.0625
+2023-01-05 14:43:22,548 - mytest - INFO - Epoch: 55
+2023-01-05 14:43:22,548 - mytest - INFO - Train loss: 2.0353
+2023-01-05 14:43:44,825 - mytest - INFO - average train acc: 44.27%
+2023-01-05 14:43:44,825 - mytest - INFO - average train loss: 2.0599
+2023-01-05 14:43:44,825 - mytest - INFO - average test acc: 44.66%
+2023-01-05 14:43:44,825 - mytest - INFO - average test loss: 2.0560
+2023-01-05 14:43:57,936 - mytest - INFO - Epoch: 56
+2023-01-05 14:43:57,937 - mytest - INFO - Train loss: 2.0306
+2023-01-05 14:44:20,904 - mytest - INFO - average train acc: 44.26%
+2023-01-05 14:44:20,904 - mytest - INFO - average train loss: 2.0528
+2023-01-05 14:44:20,904 - mytest - INFO - average test acc: 44.40%
+2023-01-05 14:44:20,904 - mytest - INFO - average test loss: 2.0488
+2023-01-05 14:44:34,498 - mytest - INFO - Epoch: 57
+2023-01-05 14:44:34,498 - mytest - INFO - Train loss: 2.0259
+2023-01-05 14:44:57,032 - mytest - INFO - average train acc: 40.78%
+2023-01-05 14:44:57,032 - mytest - INFO - average train loss: 2.0469
+2023-01-05 14:44:57,032 - mytest - INFO - average test acc: 40.73%
+2023-01-05 14:44:57,032 - mytest - INFO - average test loss: 2.0424
+2023-01-05 14:45:10,259 - mytest - INFO - Epoch: 58
+2023-01-05 14:45:10,259 - mytest - INFO - Train loss: 2.0204
+2023-01-05 14:45:33,093 - mytest - INFO - average train acc: 40.13%
+2023-01-05 14:45:33,093 - mytest - INFO - average train loss: 2.0398
+2023-01-05 14:45:33,093 - mytest - INFO - average test acc: 39.91%
+2023-01-05 14:45:33,093 - mytest - INFO - average test loss: 2.0349
+2023-01-05 14:45:45,362 - mytest - INFO - Epoch: 59
+2023-01-05 14:45:45,362 - mytest - INFO - Train loss: 2.0136
+2023-01-05 14:46:08,158 - mytest - INFO - average train acc: 44.48%
+2023-01-05 14:46:08,170 - mytest - INFO - average train loss: 2.0337
+2023-01-05 14:46:08,170 - mytest - INFO - average test acc: 44.87%
+2023-01-05 14:46:08,171 - mytest - INFO - average test loss: 2.0289
+2023-01-05 14:46:20,700 - mytest - INFO - Epoch: 60
+2023-01-05 14:46:20,700 - mytest - INFO - Train loss: 2.0076
+2023-01-05 14:46:42,645 - mytest - INFO - average train acc: 45.80%
+2023-01-05 14:46:42,645 - mytest - INFO - average train loss: 2.0267
+2023-01-05 14:46:42,645 - mytest - INFO - average test acc: 46.64%
+2023-01-05 14:46:42,645 - mytest - INFO - average test loss: 2.0220
+2023-01-05 14:46:55,883 - mytest - INFO - Epoch: 61
+2023-01-05 14:46:55,884 - mytest - INFO - Train loss: 2.0017
+2023-01-05 14:47:17,910 - mytest - INFO - average train acc: 47.34%
+2023-01-05 14:47:17,910 - mytest - INFO - average train loss: 2.0205
+2023-01-05 14:47:17,911 - mytest - INFO - average test acc: 47.89%
+2023-01-05 14:47:17,911 - mytest - INFO - average test loss: 2.0153
+2023-01-05 14:47:31,042 - mytest - INFO - Epoch: 62
+2023-01-05 14:47:31,042 - mytest - INFO - Train loss: 1.9962
+2023-01-05 14:47:54,153 - mytest - INFO - average train acc: 49.12%
+2023-01-05 14:47:54,153 - mytest - INFO - average train loss: 2.0147
+2023-01-05 14:47:54,153 - mytest - INFO - average test acc: 49.78%
+2023-01-05 14:47:54,153 - mytest - INFO - average test loss: 2.0096
+2023-01-05 14:48:07,443 - mytest - INFO - Epoch: 63
+2023-01-05 14:48:07,443 - mytest - INFO - Train loss: 1.9899
+2023-01-05 14:48:30,015 - mytest - INFO - average train acc: 50.29%
+2023-01-05 14:48:30,015 - mytest - INFO - average train loss: 2.0076
+2023-01-05 14:48:30,015 - mytest - INFO - average test acc: 51.03%
+2023-01-05 14:48:30,015 - mytest - INFO - average test loss: 2.0024
+2023-01-05 14:48:42,823 - mytest - INFO - Epoch: 64
+2023-01-05 14:48:42,823 - mytest - INFO - Train loss: 1.9826
+2023-01-05 14:49:05,127 - mytest - INFO - average train acc: 53.43%
+2023-01-05 14:49:05,127 - mytest - INFO - average train loss: 2.0010
+2023-01-05 14:49:05,128 - mytest - INFO - average test acc: 53.96%
+2023-01-05 14:49:05,128 - mytest - INFO - average test loss: 1.9955
+2023-01-05 14:49:18,374 - mytest - INFO - Epoch: 65
+2023-01-05 14:49:18,374 - mytest - INFO - Train loss: 1.9773
+2023-01-05 14:49:39,707 - mytest - INFO - average train acc: 52.33%
+2023-01-05 14:49:39,707 - mytest - INFO - average train loss: 1.9946
+2023-01-05 14:49:39,707 - mytest - INFO - average test acc: 52.65%
+2023-01-05 14:49:39,707 - mytest - INFO - average test loss: 1.9890
+2023-01-05 14:49:51,830 - mytest - INFO - Epoch: 66
+2023-01-05 14:49:51,830 - mytest - INFO - Train loss: 1.9689
+2023-01-05 14:50:14,007 - mytest - INFO - average train acc: 55.65%
+2023-01-05 14:50:14,007 - mytest - INFO - average train loss: 1.9875
+2023-01-05 14:50:14,007 - mytest - INFO - average test acc: 55.98%
+2023-01-05 14:50:14,008 - mytest - INFO - average test loss: 1.9819
+2023-01-05 14:50:27,460 - mytest - INFO - Epoch: 67
+2023-01-05 14:50:27,460 - mytest - INFO - Train loss: 1.9634
+2023-01-05 14:50:50,371 - mytest - INFO - average train acc: 53.54%
+2023-01-05 14:50:50,371 - mytest - INFO - average train loss: 1.9810
+2023-01-05 14:50:50,371 - mytest - INFO - average test acc: 54.29%
+2023-01-05 14:50:50,371 - mytest - INFO - average test loss: 1.9753
+2023-01-05 14:51:03,721 - mytest - INFO - Epoch: 68
+2023-01-05 14:51:03,721 - mytest - INFO - Train loss: 1.9552
+2023-01-05 14:51:26,199 - mytest - INFO - average train acc: 52.08%
+2023-01-05 14:51:26,199 - mytest - INFO - average train loss: 1.9775
+2023-01-05 14:51:26,199 - mytest - INFO - average test acc: 52.58%
+2023-01-05 14:51:26,199 - mytest - INFO - average test loss: 1.9720
+2023-01-05 14:51:38,647 - mytest - INFO - Epoch: 69
+2023-01-05 14:51:38,647 - mytest - INFO - Train loss: 1.9501
+2023-01-05 14:52:00,658 - mytest - INFO - average train acc: 54.26%
+2023-01-05 14:52:00,658 - mytest - INFO - average train loss: 1.9755
+2023-01-05 14:52:00,658 - mytest - INFO - average test acc: 54.79%
+2023-01-05 14:52:00,658 - mytest - INFO - average test loss: 1.9698
+2023-01-05 14:52:13,597 - mytest - INFO - Epoch: 70
+2023-01-05 14:52:13,597 - mytest - INFO - Train loss: 1.9481
+2023-01-05 14:52:35,735 - mytest - INFO - average train acc: 55.23%
+2023-01-05 14:52:35,736 - mytest - INFO - average train loss: 1.9728
+2023-01-05 14:52:35,736 - mytest - INFO - average test acc: 56.15%
+2023-01-05 14:52:35,736 - mytest - INFO - average test loss: 1.9675
+2023-01-05 14:52:50,092 - mytest - INFO - Epoch: 71
+2023-01-05 14:52:50,092 - mytest - INFO - Train loss: 1.9452
+2023-01-05 14:53:11,958 - mytest - INFO - average train acc: 55.46%
+2023-01-05 14:53:11,959 - mytest - INFO - average train loss: 1.9616
+2023-01-05 14:53:11,959 - mytest - INFO - average test acc: 55.79%
+2023-01-05 14:53:11,959 - mytest - INFO - average test loss: 1.9561
+2023-01-05 14:53:26,432 - mytest - INFO - Epoch: 72
+2023-01-05 14:53:26,433 - mytest - INFO - Train loss: 1.9342
+2023-01-05 14:53:49,114 - mytest - INFO - average train acc: 52.54%
+2023-01-05 14:53:49,119 - mytest - INFO - average train loss: 1.9550
+2023-01-05 14:53:49,119 - mytest - INFO - average test acc: 53.08%
+2023-01-05 14:53:49,119 - mytest - INFO - average test loss: 1.9492
+2023-01-05 14:54:03,054 - mytest - INFO - Epoch: 73
+2023-01-05 14:54:03,054 - mytest - INFO - Train loss: 1.9269
+2023-01-05 14:54:26,034 - mytest - INFO - average train acc: 53.86%
+2023-01-05 14:54:26,034 - mytest - INFO - average train loss: 1.9473
+2023-01-05 14:54:26,034 - mytest - INFO - average test acc: 54.15%
+2023-01-05 14:54:26,034 - mytest - INFO - average test loss: 1.9416
+2023-01-05 14:54:38,869 - mytest - INFO - Epoch: 74
+2023-01-05 14:54:38,870 - mytest - INFO - Train loss: 1.9197
+2023-01-05 14:55:01,847 - mytest - INFO - average train acc: 52.45%
+2023-01-05 14:55:01,847 - mytest - INFO - average train loss: 1.9484
+2023-01-05 14:55:01,847 - mytest - INFO - average test acc: 52.65%
+2023-01-05 14:55:01,847 - mytest - INFO - average test loss: 1.9431
+2023-01-05 14:55:14,351 - mytest - INFO - Epoch: 75
+2023-01-05 14:55:14,351 - mytest - INFO - Train loss: 1.9179
+2023-01-05 14:55:36,818 - mytest - INFO - average train acc: 55.72%
+2023-01-05 14:55:36,818 - mytest - INFO - average train loss: 1.9399
+2023-01-05 14:55:36,818 - mytest - INFO - average test acc: 55.59%
+2023-01-05 14:55:36,818 - mytest - INFO - average test loss: 1.9341
+2023-01-05 14:55:50,024 - mytest - INFO - Epoch: 76
+2023-01-05 14:55:50,024 - mytest - INFO - Train loss: 1.9108
+2023-01-05 14:56:12,514 - mytest - INFO - average train acc: 54.24%
+2023-01-05 14:56:12,514 - mytest - INFO - average train loss: 1.9381
+2023-01-05 14:56:12,515 - mytest - INFO - average test acc: 54.35%
+2023-01-05 14:56:12,515 - mytest - INFO - average test loss: 1.9321
+2023-01-05 14:56:25,147 - mytest - INFO - Epoch: 77
+2023-01-05 14:56:25,147 - mytest - INFO - Train loss: 1.9078
+2023-01-05 14:56:48,091 - mytest - INFO - average train acc: 46.62%
+2023-01-05 14:56:48,091 - mytest - INFO - average train loss: 1.9360
+2023-01-05 14:56:48,091 - mytest - INFO - average test acc: 46.82%
+2023-01-05 14:56:48,092 - mytest - INFO - average test loss: 1.9292
+2023-01-05 14:57:00,743 - mytest - INFO - Epoch: 78
+2023-01-05 14:57:00,743 - mytest - INFO - Train loss: 1.9054
+2023-01-05 14:57:23,880 - mytest - INFO - average train acc: 45.92%
+2023-01-05 14:57:23,880 - mytest - INFO - average train loss: 1.9339
+2023-01-05 14:57:23,881 - mytest - INFO - average test acc: 46.22%
+2023-01-05 14:57:23,881 - mytest - INFO - average test loss: 1.9269
+2023-01-05 14:57:36,096 - mytest - INFO - Epoch: 79
+2023-01-05 14:57:36,096 - mytest - INFO - Train loss: 1.9007
+2023-01-05 14:57:57,503 - mytest - INFO - average train acc: 51.49%
+2023-01-05 14:57:57,503 - mytest - INFO - average train loss: 1.9228
+2023-01-05 14:57:57,503 - mytest - INFO - average test acc: 52.16%
+2023-01-05 14:57:57,504 - mytest - INFO - average test loss: 1.9160
+2023-01-05 14:58:09,902 - mytest - INFO - Epoch: 80
+2023-01-05 14:58:09,903 - mytest - INFO - Train loss: 1.8936
+2023-01-05 14:58:32,784 - mytest - INFO - average train acc: 53.26%
+2023-01-05 14:58:32,784 - mytest - INFO - average train loss: 1.9144
+2023-01-05 14:58:32,784 - mytest - INFO - average test acc: 54.05%
+2023-01-05 14:58:32,784 - mytest - INFO - average test loss: 1.9074
+2023-01-05 14:58:44,914 - mytest - INFO - Epoch: 81
+2023-01-05 14:58:44,914 - mytest - INFO - Train loss: 1.8875
+2023-01-05 14:59:08,268 - mytest - INFO - average train acc: 52.44%
+2023-01-05 14:59:08,268 - mytest - INFO - average train loss: 1.9144
+2023-01-05 14:59:08,268 - mytest - INFO - average test acc: 53.06%
+2023-01-05 14:59:08,268 - mytest - INFO - average test loss: 1.9077
+2023-01-05 14:59:21,177 - mytest - INFO - Epoch: 82
+2023-01-05 14:59:21,178 - mytest - INFO - Train loss: 1.8846
+2023-01-05 14:59:44,013 - mytest - INFO - average train acc: 52.98%
+2023-01-05 14:59:44,014 - mytest - INFO - average train loss: 1.9095
+2023-01-05 14:59:44,014 - mytest - INFO - average test acc: 53.42%
+2023-01-05 14:59:44,014 - mytest - INFO - average test loss: 1.9033
+2023-01-05 14:59:56,902 - mytest - INFO - Epoch: 83
+2023-01-05 14:59:56,902 - mytest - INFO - Train loss: 1.8790
+2023-01-05 15:00:19,903 - mytest - INFO - average train acc: 52.02%
+2023-01-05 15:00:19,903 - mytest - INFO - average train loss: 1.9049
+2023-01-05 15:00:19,903 - mytest - INFO - average test acc: 52.76%
+2023-01-05 15:00:19,903 - mytest - INFO - average test loss: 1.8989
+2023-01-05 15:00:33,217 - mytest - INFO - Epoch: 84
+2023-01-05 15:00:33,217 - mytest - INFO - Train loss: 1.8756
+2023-01-05 15:00:55,827 - mytest - INFO - average train acc: 51.25%
+2023-01-05 15:00:55,827 - mytest - INFO - average train loss: 1.8980
+2023-01-05 15:00:55,827 - mytest - INFO - average test acc: 52.08%
+2023-01-05 15:00:55,827 - mytest - INFO - average test loss: 1.8915
+2023-01-05 15:01:08,575 - mytest - INFO - Epoch: 85
+2023-01-05 15:01:08,575 - mytest - INFO - Train loss: 1.8664
+2023-01-05 15:01:30,443 - mytest - INFO - average train acc: 48.71%
+2023-01-05 15:01:30,444 - mytest - INFO - average train loss: 1.8970
+2023-01-05 15:01:30,444 - mytest - INFO - average test acc: 49.29%
+2023-01-05 15:01:30,444 - mytest - INFO - average test loss: 1.8904
+2023-01-05 15:01:43,833 - mytest - INFO - Epoch: 86
+2023-01-05 15:01:43,834 - mytest - INFO - Train loss: 1.8635
+2023-01-05 15:02:05,926 - mytest - INFO - average train acc: 49.80%
+2023-01-05 15:02:05,926 - mytest - INFO - average train loss: 1.8836
+2023-01-05 15:02:05,926 - mytest - INFO - average test acc: 50.45%
+2023-01-05 15:02:05,926 - mytest - INFO - average test loss: 1.8767
+2023-01-05 15:02:18,840 - mytest - INFO - Epoch: 87
+2023-01-05 15:02:18,840 - mytest - INFO - Train loss: 1.8534
+2023-01-05 15:02:41,480 - mytest - INFO - average train acc: 49.13%
+2023-01-05 15:02:41,480 - mytest - INFO - average train loss: 1.8751
+2023-01-05 15:02:41,480 - mytest - INFO - average test acc: 49.72%
+2023-01-05 15:02:41,480 - mytest - INFO - average test loss: 1.8680
+2023-01-05 15:02:55,683 - mytest - INFO - Epoch: 88
+2023-01-05 15:02:55,684 - mytest - INFO - Train loss: 1.8468
+2023-01-05 15:03:18,503 - mytest - INFO - average train acc: 50.85%
+2023-01-05 15:03:18,515 - mytest - INFO - average train loss: 1.8624
+2023-01-05 15:03:18,516 - mytest - INFO - average test acc: 51.74%
+2023-01-05 15:03:18,516 - mytest - INFO - average test loss: 1.8548
+2023-01-05 15:03:32,657 - mytest - INFO - Epoch: 89
+2023-01-05 15:03:32,657 - mytest - INFO - Train loss: 1.8348
+2023-01-05 15:03:55,708 - mytest - INFO - average train acc: 52.20%
+2023-01-05 15:03:55,708 - mytest - INFO - average train loss: 1.8547
+2023-01-05 15:03:55,708 - mytest - INFO - average test acc: 53.02%
+2023-01-05 15:03:55,709 - mytest - INFO - average test loss: 1.8468
+2023-01-05 15:04:08,630 - mytest - INFO - Epoch: 90
+2023-01-05 15:04:08,630 - mytest - INFO - Train loss: 1.8282
+2023-01-05 15:04:30,622 - mytest - INFO - average train acc: 49.36%
+2023-01-05 15:04:30,622 - mytest - INFO - average train loss: 1.8567
+2023-01-05 15:04:30,622 - mytest - INFO - average test acc: 50.06%
+2023-01-05 15:04:30,622 - mytest - INFO - average test loss: 1.8487
+2023-01-05 15:04:43,604 - mytest - INFO - Epoch: 91
+2023-01-05 15:04:43,605 - mytest - INFO - Train loss: 1.8259
+2023-01-05 15:05:05,505 - mytest - INFO - average train acc: 50.38%
+2023-01-05 15:05:05,505 - mytest - INFO - average train loss: 1.8509
+2023-01-05 15:05:05,505 - mytest - INFO - average test acc: 51.09%
+2023-01-05 15:05:05,505 - mytest - INFO - average test loss: 1.8427
+2023-01-05 15:05:18,250 - mytest - INFO - Epoch: 92
+2023-01-05 15:05:18,250 - mytest - INFO - Train loss: 1.8198
+2023-01-05 15:05:39,939 - mytest - INFO - average train acc: 51.92%
+2023-01-05 15:05:39,939 - mytest - INFO - average train loss: 1.8397
+2023-01-05 15:05:39,939 - mytest - INFO - average test acc: 52.61%
+2023-01-05 15:05:39,939 - mytest - INFO - average test loss: 1.8309
+2023-01-05 15:05:52,157 - mytest - INFO - Epoch: 93
+2023-01-05 15:05:52,157 - mytest - INFO - Train loss: 1.8095
+2023-01-05 15:06:14,144 - mytest - INFO - average train acc: 54.84%
+2023-01-05 15:06:14,144 - mytest - INFO - average train loss: 1.8272
+2023-01-05 15:06:14,144 - mytest - INFO - average test acc: 55.35%
+2023-01-05 15:06:14,145 - mytest - INFO - average test loss: 1.8186
+2023-01-05 15:06:26,458 - mytest - INFO - Epoch: 94
+2023-01-05 15:06:26,458 - mytest - INFO - Train loss: 1.7979
+2023-01-05 15:06:48,437 - mytest - INFO - average train acc: 57.33%
+2023-01-05 15:06:48,437 - mytest - INFO - average train loss: 1.8198
+2023-01-05 15:06:48,437 - mytest - INFO - average test acc: 58.02%
+2023-01-05 15:06:48,437 - mytest - INFO - average test loss: 1.8108
+2023-01-05 15:07:00,595 - mytest - INFO - Epoch: 95
+2023-01-05 15:07:00,595 - mytest - INFO - Train loss: 1.7894
+2023-01-05 15:07:23,292 - mytest - INFO - average train acc: 55.70%
+2023-01-05 15:07:23,292 - mytest - INFO - average train loss: 1.8169
+2023-01-05 15:07:23,292 - mytest - INFO - average test acc: 56.44%
+2023-01-05 15:07:23,293 - mytest - INFO - average test loss: 1.8079
+2023-01-05 15:07:35,514 - mytest - INFO - Epoch: 96
+2023-01-05 15:07:35,514 - mytest - INFO - Train loss: 1.7834
+2023-01-05 15:07:57,938 - mytest - INFO - average train acc: 56.84%
+2023-01-05 15:07:57,939 - mytest - INFO - average train loss: 1.8049
+2023-01-05 15:07:57,939 - mytest - INFO - average test acc: 57.44%
+2023-01-05 15:07:57,939 - mytest - INFO - average test loss: 1.7955
+2023-01-05 15:08:10,961 - mytest - INFO - Epoch: 97
+2023-01-05 15:08:10,961 - mytest - INFO - Train loss: 1.7748
+2023-01-05 15:08:33,307 - mytest - INFO - average train acc: 55.55%
+2023-01-05 15:08:33,307 - mytest - INFO - average train loss: 1.7973
+2023-01-05 15:08:33,307 - mytest - INFO - average test acc: 56.32%
+2023-01-05 15:08:33,307 - mytest - INFO - average test loss: 1.7881
+2023-01-05 15:08:45,747 - mytest - INFO - Epoch: 98
+2023-01-05 15:08:45,747 - mytest - INFO - Train loss: 1.7685
+2023-01-05 15:09:07,616 - mytest - INFO - average train acc: 55.13%
+2023-01-05 15:09:07,616 - mytest - INFO - average train loss: 1.7907
+2023-01-05 15:09:07,616 - mytest - INFO - average test acc: 55.92%
+2023-01-05 15:09:07,616 - mytest - INFO - average test loss: 1.7812
+2023-01-05 15:09:20,077 - mytest - INFO - Epoch: 99
+2023-01-05 15:09:20,078 - mytest - INFO - Train loss: 1.7620
+2023-01-05 15:09:42,531 - mytest - INFO - average train acc: 52.28%
+2023-01-05 15:09:42,531 - mytest - INFO - average train loss: 1.7910
+2023-01-05 15:09:42,531 - mytest - INFO - average test acc: 52.81%
+2023-01-05 15:09:42,532 - mytest - INFO - average test loss: 1.7818
+2023-01-05 15:09:56,244 - mytest - INFO - Epoch: 100
+2023-01-05 15:09:56,245 - mytest - INFO - Train loss: 1.7587
+2023-01-05 15:10:18,811 - mytest - INFO - average train acc: 50.81%
+2023-01-05 15:10:18,812 - mytest - INFO - average train loss: 1.7833
+2023-01-05 15:10:18,812 - mytest - INFO - average test acc: 51.44%
+2023-01-05 15:10:18,812 - mytest - INFO - average test loss: 1.7741
+2023-01-05 15:10:31,877 - mytest - INFO - Epoch: 101
+2023-01-05 15:10:31,877 - mytest - INFO - Train loss: 1.7515
+2023-01-05 15:10:54,779 - mytest - INFO - average train acc: 50.21%
+2023-01-05 15:10:54,779 - mytest - INFO - average train loss: 1.7755
+2023-01-05 15:10:54,780 - mytest - INFO - average test acc: 51.03%
+2023-01-05 15:10:54,780 - mytest - INFO - average test loss: 1.7662
+2023-01-05 15:11:07,096 - mytest - INFO - Epoch: 102
+2023-01-05 15:11:07,096 - mytest - INFO - Train loss: 1.7440
+2023-01-05 15:11:29,935 - mytest - INFO - average train acc: 50.35%
+2023-01-05 15:11:29,935 - mytest - INFO - average train loss: 1.7647
+2023-01-05 15:11:29,936 - mytest - INFO - average test acc: 51.13%
+2023-01-05 15:11:29,936 - mytest - INFO - average test loss: 1.7552
+2023-01-05 15:11:43,250 - mytest - INFO - Epoch: 103
+2023-01-05 15:11:43,250 - mytest - INFO - Train loss: 1.7362
+2023-01-05 15:12:05,347 - mytest - INFO - average train acc: 48.63%
+2023-01-05 15:12:05,347 - mytest - INFO - average train loss: 1.7610
+2023-01-05 15:12:05,347 - mytest - INFO - average test acc: 49.15%
+2023-01-05 15:12:05,347 - mytest - INFO - average test loss: 1.7520
+2023-01-05 15:12:18,146 - mytest - INFO - Epoch: 104
+2023-01-05 15:12:18,146 - mytest - INFO - Train loss: 1.7326
+2023-01-05 15:12:40,353 - mytest - INFO - average train acc: 50.19%
+2023-01-05 15:12:40,354 - mytest - INFO - average train loss: 1.7574
+2023-01-05 15:12:40,354 - mytest - INFO - average test acc: 50.90%
+2023-01-05 15:12:40,354 - mytest - INFO - average test loss: 1.7481
+2023-01-05 15:12:52,756 - mytest - INFO - Epoch: 105
+2023-01-05 15:12:52,756 - mytest - INFO - Train loss: 1.7238
+2023-01-05 15:13:15,506 - mytest - INFO - average train acc: 52.84%
+2023-01-05 15:13:15,507 - mytest - INFO - average train loss: 1.7529
+2023-01-05 15:13:15,507 - mytest - INFO - average test acc: 53.40%
+2023-01-05 15:13:15,507 - mytest - INFO - average test loss: 1.7432
+2023-01-05 15:13:28,588 - mytest - INFO - Epoch: 106
+2023-01-05 15:13:28,590 - mytest - INFO - Train loss: 1.7181
+2023-01-05 15:13:50,550 - mytest - INFO - average train acc: 50.96%
+2023-01-05 15:13:50,550 - mytest - INFO - average train loss: 1.7533
+2023-01-05 15:13:50,551 - mytest - INFO - average test acc: 51.63%
+2023-01-05 15:13:50,551 - mytest - INFO - average test loss: 1.7436
+2023-01-05 15:14:04,005 - mytest - INFO - Epoch: 107
+2023-01-05 15:14:04,005 - mytest - INFO - Train loss: 1.7156
+2023-01-05 15:14:26,100 - mytest - INFO - average train acc: 53.70%
+2023-01-05 15:14:26,100 - mytest - INFO - average train loss: 1.7502
+2023-01-05 15:14:26,100 - mytest - INFO - average test acc: 54.37%
+2023-01-05 15:14:26,100 - mytest - INFO - average test loss: 1.7407
+2023-01-05 15:14:39,743 - mytest - INFO - Epoch: 108
+2023-01-05 15:14:39,744 - mytest - INFO - Train loss: 1.7116
+2023-01-05 15:15:02,138 - mytest - INFO - average train acc: 54.95%
+2023-01-05 15:15:02,138 - mytest - INFO - average train loss: 1.7501
+2023-01-05 15:15:02,139 - mytest - INFO - average test acc: 55.32%
+2023-01-05 15:15:02,139 - mytest - INFO - average test loss: 1.7408
+2023-01-05 15:15:15,818 - mytest - INFO - Epoch: 109
+2023-01-05 15:15:15,818 - mytest - INFO - Train loss: 1.7084
+2023-01-05 15:15:38,358 - mytest - INFO - average train acc: 55.16%
+2023-01-05 15:15:38,358 - mytest - INFO - average train loss: 1.7492
+2023-01-05 15:15:38,358 - mytest - INFO - average test acc: 55.45%
+2023-01-05 15:15:38,358 - mytest - INFO - average test loss: 1.7397
+2023-01-05 15:15:50,915 - mytest - INFO - Epoch: 110
+2023-01-05 15:15:50,915 - mytest - INFO - Train loss: 1.7046
+2023-01-05 15:16:13,025 - mytest - INFO - average train acc: 55.27%
+2023-01-05 15:16:13,025 - mytest - INFO - average train loss: 1.7400
+2023-01-05 15:16:13,025 - mytest - INFO - average test acc: 55.81%
+2023-01-05 15:16:13,025 - mytest - INFO - average test loss: 1.7302
+2023-01-05 15:16:26,713 - mytest - INFO - Epoch: 111
+2023-01-05 15:16:26,713 - mytest - INFO - Train loss: 1.6972
+2023-01-05 15:16:50,063 - mytest - INFO - average train acc: 56.08%
+2023-01-05 15:16:50,063 - mytest - INFO - average train loss: 1.7331
+2023-01-05 15:16:50,063 - mytest - INFO - average test acc: 56.59%
+2023-01-05 15:16:50,063 - mytest - INFO - average test loss: 1.7230
+2023-01-05 15:17:03,383 - mytest - INFO - Epoch: 112
+2023-01-05 15:17:03,383 - mytest - INFO - Train loss: 1.6904
+2023-01-05 15:17:25,554 - mytest - INFO - average train acc: 56.01%
+2023-01-05 15:17:25,554 - mytest - INFO - average train loss: 1.7172
+2023-01-05 15:17:25,554 - mytest - INFO - average test acc: 56.51%
+2023-01-05 15:17:25,554 - mytest - INFO - average test loss: 1.7064
+2023-01-05 15:17:39,056 - mytest - INFO - Epoch: 113
+2023-01-05 15:17:39,056 - mytest - INFO - Train loss: 1.6776
+2023-01-05 15:18:03,115 - mytest - INFO - average train acc: 57.63%
+2023-01-05 15:18:03,115 - mytest - INFO - average train loss: 1.7150
+2023-01-05 15:18:03,115 - mytest - INFO - average test acc: 58.31%
+2023-01-05 15:18:03,115 - mytest - INFO - average test loss: 1.7047
+2023-01-05 15:18:16,071 - mytest - INFO - Epoch: 114
+2023-01-05 15:18:16,071 - mytest - INFO - Train loss: 1.6741
+2023-01-05 15:18:39,019 - mytest - INFO - average train acc: 56.51%
+2023-01-05 15:18:39,019 - mytest - INFO - average train loss: 1.7083
+2023-01-05 15:18:39,019 - mytest - INFO - average test acc: 57.39%
+2023-01-05 15:18:39,019 - mytest - INFO - average test loss: 1.6974
+2023-01-05 15:18:51,314 - mytest - INFO - Epoch: 115
+2023-01-05 15:18:51,317 - mytest - INFO - Train loss: 1.6676
+2023-01-05 15:19:13,641 - mytest - INFO - average train acc: 57.46%
+2023-01-05 15:19:13,642 - mytest - INFO - average train loss: 1.6920
+2023-01-05 15:19:13,642 - mytest - INFO - average test acc: 58.31%
+2023-01-05 15:19:13,642 - mytest - INFO - average test loss: 1.6807
+2023-01-05 15:19:26,754 - mytest - INFO - Epoch: 116
+2023-01-05 15:19:26,754 - mytest - INFO - Train loss: 1.6542
+2023-01-05 15:19:50,306 - mytest - INFO - average train acc: 57.78%
+2023-01-05 15:19:50,306 - mytest - INFO - average train loss: 1.6807
+2023-01-05 15:19:50,306 - mytest - INFO - average test acc: 58.60%
+2023-01-05 15:19:50,306 - mytest - INFO - average test loss: 1.6694
+2023-01-05 15:20:03,514 - mytest - INFO - Epoch: 117
+2023-01-05 15:20:03,514 - mytest - INFO - Train loss: 1.6440
+2023-01-05 15:20:26,190 - mytest - INFO - average train acc: 57.40%
+2023-01-05 15:20:26,191 - mytest - INFO - average train loss: 1.6722
+2023-01-05 15:20:26,191 - mytest - INFO - average test acc: 58.35%
+2023-01-05 15:20:26,191 - mytest - INFO - average test loss: 1.6614
+2023-01-05 15:20:38,596 - mytest - INFO - Epoch: 118
+2023-01-05 15:20:38,596 - mytest - INFO - Train loss: 1.6378
+2023-01-05 15:21:01,413 - mytest - INFO - average train acc: 54.89%
+2023-01-05 15:21:01,413 - mytest - INFO - average train loss: 1.6656
+2023-01-05 15:21:01,413 - mytest - INFO - average test acc: 56.05%
+2023-01-05 15:21:01,413 - mytest - INFO - average test loss: 1.6540
+2023-01-05 15:21:14,709 - mytest - INFO - Epoch: 119
+2023-01-05 15:21:14,709 - mytest - INFO - Train loss: 1.6313
+2023-01-05 15:21:37,411 - mytest - INFO - average train acc: 49.32%
+2023-01-05 15:21:37,412 - mytest - INFO - average train loss: 1.6665
+2023-01-05 15:21:37,412 - mytest - INFO - average test acc: 49.98%
+2023-01-05 15:21:37,412 - mytest - INFO - average test loss: 1.6547
+2023-01-05 15:21:50,308 - mytest - INFO - Epoch: 120
+2023-01-05 15:21:50,308 - mytest - INFO - Train loss: 1.6336
+2023-01-05 15:22:12,626 - mytest - INFO - average train acc: 48.28%
+2023-01-05 15:22:12,627 - mytest - INFO - average train loss: 1.6601
+2023-01-05 15:22:12,627 - mytest - INFO - average test acc: 49.08%
+2023-01-05 15:22:12,627 - mytest - INFO - average test loss: 1.6481
+2023-01-05 15:22:24,908 - mytest - INFO - Epoch: 121
+2023-01-05 15:22:24,909 - mytest - INFO - Train loss: 1.6270
+2023-01-05 15:22:47,624 - mytest - INFO - average train acc: 51.63%
+2023-01-05 15:22:47,625 - mytest - INFO - average train loss: 1.6522
+2023-01-05 15:22:47,625 - mytest - INFO - average test acc: 52.36%
+2023-01-05 15:22:47,625 - mytest - INFO - average test loss: 1.6398
+2023-01-05 15:23:00,555 - mytest - INFO - Epoch: 122
+2023-01-05 15:23:00,577 - mytest - INFO - Train loss: 1.6179
+2023-01-05 15:23:22,466 - mytest - INFO - average train acc: 48.09%
+2023-01-05 15:23:22,466 - mytest - INFO - average train loss: 1.6581
+2023-01-05 15:23:22,467 - mytest - INFO - average test acc: 48.55%
+2023-01-05 15:23:22,467 - mytest - INFO - average test loss: 1.6461
+2023-01-05 15:23:35,496 - mytest - INFO - Epoch: 123
+2023-01-05 15:23:35,496 - mytest - INFO - Train loss: 1.6204
+2023-01-05 15:23:58,259 - mytest - INFO - average train acc: 49.68%
+2023-01-05 15:23:58,259 - mytest - INFO - average train loss: 1.6507
+2023-01-05 15:23:58,260 - mytest - INFO - average test acc: 50.39%
+2023-01-05 15:23:58,260 - mytest - INFO - average test loss: 1.6388
+2023-01-05 15:24:10,636 - mytest - INFO - Epoch: 124
+2023-01-05 15:24:10,636 - mytest - INFO - Train loss: 1.6163
+2023-01-05 15:24:33,804 - mytest - INFO - average train acc: 57.35%
+2023-01-05 15:24:33,804 - mytest - INFO - average train loss: 1.6358
+2023-01-05 15:24:33,805 - mytest - INFO - average test acc: 58.19%
+2023-01-05 15:24:33,805 - mytest - INFO - average test loss: 1.6235
+2023-01-05 15:24:46,742 - mytest - INFO - Epoch: 125
+2023-01-05 15:24:46,743 - mytest - INFO - Train loss: 1.6047
+2023-01-05 15:25:08,916 - mytest - INFO - average train acc: 57.37%
+2023-01-05 15:25:08,916 - mytest - INFO - average train loss: 1.6299
+2023-01-05 15:25:08,916 - mytest - INFO - average test acc: 58.24%
+2023-01-05 15:25:08,916 - mytest - INFO - average test loss: 1.6173
+2023-01-05 15:25:21,633 - mytest - INFO - Epoch: 126
+2023-01-05 15:25:21,633 - mytest - INFO - Train loss: 1.5975
+2023-01-05 15:25:44,055 - mytest - INFO - average train acc: 60.70%
+2023-01-05 15:25:44,055 - mytest - INFO - average train loss: 1.6156
+2023-01-05 15:25:44,055 - mytest - INFO - average test acc: 61.41%
+2023-01-05 15:25:44,056 - mytest - INFO - average test loss: 1.6025
+2023-01-05 15:25:57,522 - mytest - INFO - Epoch: 127
+2023-01-05 15:25:57,522 - mytest - INFO - Train loss: 1.5860
+2023-01-05 15:26:20,639 - mytest - INFO - average train acc: 61.05%
+2023-01-05 15:26:20,639 - mytest - INFO - average train loss: 1.6090
+2023-01-05 15:26:20,639 - mytest - INFO - average test acc: 61.46%
+2023-01-05 15:26:20,640 - mytest - INFO - average test loss: 1.5957
+2023-01-05 15:26:33,759 - mytest - INFO - Epoch: 128
+2023-01-05 15:26:33,760 - mytest - INFO - Train loss: 1.5795
+2023-01-05 15:26:56,617 - mytest - INFO - average train acc: 60.30%
+2023-01-05 15:26:56,617 - mytest - INFO - average train loss: 1.5989
+2023-01-05 15:26:56,617 - mytest - INFO - average test acc: 60.99%
+2023-01-05 15:26:56,618 - mytest - INFO - average test loss: 1.5855
+2023-01-05 15:27:10,147 - mytest - INFO - Epoch: 129
+2023-01-05 15:27:10,147 - mytest - INFO - Train loss: 1.5694
+2023-01-05 15:27:33,366 - mytest - INFO - average train acc: 58.25%
+2023-01-05 15:27:33,367 - mytest - INFO - average train loss: 1.6041
+2023-01-05 15:27:33,367 - mytest - INFO - average test acc: 58.95%
+2023-01-05 15:27:33,367 - mytest - INFO - average test loss: 1.5914
+2023-01-05 15:27:45,804 - mytest - INFO - Epoch: 130
+2023-01-05 15:27:45,804 - mytest - INFO - Train loss: 1.5715
+2023-01-05 15:28:08,461 - mytest - INFO - average train acc: 58.84%
+2023-01-05 15:28:08,461 - mytest - INFO - average train loss: 1.5902
+2023-01-05 15:28:08,461 - mytest - INFO - average test acc: 59.35%
+2023-01-05 15:28:08,461 - mytest - INFO - average test loss: 1.5773
+2023-01-05 15:28:21,379 - mytest - INFO - Epoch: 131
+2023-01-05 15:28:21,394 - mytest - INFO - Train loss: 1.5598
+2023-01-05 15:28:43,305 - mytest - INFO - average train acc: 56.67%
+2023-01-05 15:28:43,305 - mytest - INFO - average train loss: 1.5862
+2023-01-05 15:28:43,305 - mytest - INFO - average test acc: 57.10%
+2023-01-05 15:28:43,306 - mytest - INFO - average test loss: 1.5735
+2023-01-05 15:28:56,242 - mytest - INFO - Epoch: 132
+2023-01-05 15:28:56,245 - mytest - INFO - Train loss: 1.5543
+2023-01-05 15:29:18,475 - mytest - INFO - average train acc: 59.57%
+2023-01-05 15:29:18,475 - mytest - INFO - average train loss: 1.5753
+2023-01-05 15:29:18,475 - mytest - INFO - average test acc: 60.29%
+2023-01-05 15:29:18,475 - mytest - INFO - average test loss: 1.5621
+2023-01-05 15:29:30,535 - mytest - INFO - Epoch: 133
+2023-01-05 15:29:30,535 - mytest - INFO - Train loss: 1.5437
+2023-01-05 15:29:52,861 - mytest - INFO - average train acc: 60.43%
+2023-01-05 15:29:52,861 - mytest - INFO - average train loss: 1.5688
+2023-01-05 15:29:52,861 - mytest - INFO - average test acc: 61.17%
+2023-01-05 15:29:52,862 - mytest - INFO - average test loss: 1.5553
+2023-01-05 15:30:06,708 - mytest - INFO - Epoch: 134
+2023-01-05 15:30:06,708 - mytest - INFO - Train loss: 1.5346
+2023-01-05 15:30:29,343 - mytest - INFO - average train acc: 60.44%
+2023-01-05 15:30:29,344 - mytest - INFO - average train loss: 1.5583
+2023-01-05 15:30:29,344 - mytest - INFO - average test acc: 61.33%
+2023-01-05 15:30:29,344 - mytest - INFO - average test loss: 1.5447
+2023-01-05 15:30:43,116 - mytest - INFO - Epoch: 135
+2023-01-05 15:30:43,117 - mytest - INFO - Train loss: 1.5246
+2023-01-05 15:31:05,495 - mytest - INFO - average train acc: 61.66%
+2023-01-05 15:31:05,499 - mytest - INFO - average train loss: 1.5422
+2023-01-05 15:31:05,499 - mytest - INFO - average test acc: 62.42%
+2023-01-05 15:31:05,500 - mytest - INFO - average test loss: 1.5283
+2023-01-05 15:31:18,250 - mytest - INFO - Epoch: 136
+2023-01-05 15:31:18,250 - mytest - INFO - Train loss: 1.5120
+2023-01-05 15:31:40,570 - mytest - INFO - average train acc: 62.04%
+2023-01-05 15:31:40,570 - mytest - INFO - average train loss: 1.5398
+2023-01-05 15:31:40,570 - mytest - INFO - average test acc: 62.26%
+2023-01-05 15:31:40,570 - mytest - INFO - average test loss: 1.5264
+2023-01-05 15:31:52,865 - mytest - INFO - Epoch: 137
+2023-01-05 15:31:52,865 - mytest - INFO - Train loss: 1.5100
+2023-01-05 15:32:14,802 - mytest - INFO - average train acc: 58.85%
+2023-01-05 15:32:14,802 - mytest - INFO - average train loss: 1.5414
+2023-01-05 15:32:14,802 - mytest - INFO - average test acc: 59.15%
+2023-01-05 15:32:14,802 - mytest - INFO - average test loss: 1.5283
+2023-01-05 15:32:27,183 - mytest - INFO - Epoch: 138
+2023-01-05 15:32:27,184 - mytest - INFO - Train loss: 1.5063
+2023-01-05 15:32:48,856 - mytest - INFO - average train acc: 58.84%
+2023-01-05 15:32:48,858 - mytest - INFO - average train loss: 1.5365
+2023-01-05 15:32:48,858 - mytest - INFO - average test acc: 58.99%
+2023-01-05 15:32:48,858 - mytest - INFO - average test loss: 1.5231
+2023-01-05 15:33:01,528 - mytest - INFO - Epoch: 139
+2023-01-05 15:33:01,528 - mytest - INFO - Train loss: 1.4988
+2023-01-05 15:33:23,938 - mytest - INFO - average train acc: 59.69%
+2023-01-05 15:33:23,938 - mytest - INFO - average train loss: 1.5269
+2023-01-05 15:33:23,938 - mytest - INFO - average test acc: 60.19%
+2023-01-05 15:33:23,938 - mytest - INFO - average test loss: 1.5137
+2023-01-05 15:33:37,084 - mytest - INFO - Epoch: 140
+2023-01-05 15:33:37,084 - mytest - INFO - Train loss: 1.4890
+2023-01-05 15:33:59,581 - mytest - INFO - average train acc: 64.04%
+2023-01-05 15:33:59,581 - mytest - INFO - average train loss: 1.5121
+2023-01-05 15:33:59,581 - mytest - INFO - average test acc: 64.13%
+2023-01-05 15:33:59,581 - mytest - INFO - average test loss: 1.4982
+2023-01-05 15:34:12,503 - mytest - INFO - Epoch: 141
+2023-01-05 15:34:12,503 - mytest - INFO - Train loss: 1.4777
+2023-01-05 15:34:34,589 - mytest - INFO - average train acc: 66.15%
+2023-01-05 15:34:34,589 - mytest - INFO - average train loss: 1.5018
+2023-01-05 15:34:34,589 - mytest - INFO - average test acc: 66.48%
+2023-01-05 15:34:34,589 - mytest - INFO - average test loss: 1.4878
+2023-01-05 15:34:47,513 - mytest - INFO - Epoch: 142
+2023-01-05 15:34:47,513 - mytest - INFO - Train loss: 1.4695
+2023-01-05 15:35:10,046 - mytest - INFO - average train acc: 66.59%
+2023-01-05 15:35:10,046 - mytest - INFO - average train loss: 1.4915
+2023-01-05 15:35:10,046 - mytest - INFO - average test acc: 66.90%
+2023-01-05 15:35:10,046 - mytest - INFO - average test loss: 1.4773
+2023-01-05 15:35:22,538 - mytest - INFO - Epoch: 143
+2023-01-05 15:35:22,538 - mytest - INFO - Train loss: 1.4594
+2023-01-05 15:35:45,068 - mytest - INFO - average train acc: 70.67%
+2023-01-05 15:35:45,068 - mytest - INFO - average train loss: 1.4803
+2023-01-05 15:35:45,068 - mytest - INFO - average test acc: 70.99%
+2023-01-05 15:35:45,068 - mytest - INFO - average test loss: 1.4658
+2023-01-05 15:35:57,210 - mytest - INFO - Epoch: 144
+2023-01-05 15:35:57,210 - mytest - INFO - Train loss: 1.4513
+2023-01-05 15:36:19,850 - mytest - INFO - average train acc: 70.29%
+2023-01-05 15:36:19,850 - mytest - INFO - average train loss: 1.4685
+2023-01-05 15:36:19,851 - mytest - INFO - average test acc: 70.68%
+2023-01-05 15:36:19,851 - mytest - INFO - average test loss: 1.4537
+2023-01-05 15:36:32,256 - mytest - INFO - Epoch: 145
+2023-01-05 15:36:32,256 - mytest - INFO - Train loss: 1.4416
+2023-01-05 15:36:54,834 - mytest - INFO - average train acc: 68.56%
+2023-01-05 15:36:54,834 - mytest - INFO - average train loss: 1.4678
+2023-01-05 15:36:54,835 - mytest - INFO - average test acc: 68.86%
+2023-01-05 15:36:54,835 - mytest - INFO - average test loss: 1.4527
+2023-01-05 15:37:08,161 - mytest - INFO - Epoch: 146
+2023-01-05 15:37:08,161 - mytest - INFO - Train loss: 1.4410
+2023-01-05 15:37:30,369 - mytest - INFO - average train acc: 66.70%
+2023-01-05 15:37:30,369 - mytest - INFO - average train loss: 1.4706
+2023-01-05 15:37:30,369 - mytest - INFO - average test acc: 67.12%
+2023-01-05 15:37:30,369 - mytest - INFO - average test loss: 1.4556
+2023-01-05 15:37:42,969 - mytest - INFO - Epoch: 147
+2023-01-05 15:37:42,970 - mytest - INFO - Train loss: 1.4430
+2023-01-05 15:38:05,225 - mytest - INFO - average train acc: 70.34%
+2023-01-05 15:38:05,225 - mytest - INFO - average train loss: 1.4498
+2023-01-05 15:38:05,225 - mytest - INFO - average test acc: 70.56%
+2023-01-05 15:38:05,225 - mytest - INFO - average test loss: 1.4340
+2023-01-05 15:38:17,825 - mytest - INFO - Epoch: 148
+2023-01-05 15:38:17,825 - mytest - INFO - Train loss: 1.4256
+2023-01-05 15:38:40,785 - mytest - INFO - average train acc: 71.04%
+2023-01-05 15:38:40,785 - mytest - INFO - average train loss: 1.4381
+2023-01-05 15:38:40,785 - mytest - INFO - average test acc: 71.40%
+2023-01-05 15:38:40,785 - mytest - INFO - average test loss: 1.4222
+2023-01-05 15:38:53,120 - mytest - INFO - Epoch: 149
+2023-01-05 15:38:53,120 - mytest - INFO - Train loss: 1.4117
+2023-01-05 15:39:15,240 - mytest - INFO - average train acc: 69.91%
+2023-01-05 15:39:15,240 - mytest - INFO - average train loss: 1.4350
+2023-01-05 15:39:15,240 - mytest - INFO - average test acc: 70.26%
+2023-01-05 15:39:15,240 - mytest - INFO - average test loss: 1.4192
+2023-01-05 15:39:28,636 - mytest - INFO - Epoch: 150
+2023-01-05 15:39:28,637 - mytest - INFO - Train loss: 1.4077
+2023-01-05 15:39:51,090 - mytest - INFO - average train acc: 69.25%
+2023-01-05 15:39:51,091 - mytest - INFO - average train loss: 1.4275
+2023-01-05 15:39:51,091 - mytest - INFO - average test acc: 69.57%
+2023-01-05 15:39:51,091 - mytest - INFO - average test loss: 1.4113
+2023-01-05 15:40:04,944 - mytest - INFO - Epoch: 151
+2023-01-05 15:40:04,945 - mytest - INFO - Train loss: 1.4044
+2023-01-05 15:40:26,353 - mytest - INFO - average train acc: 70.51%
+2023-01-05 15:40:26,353 - mytest - INFO - average train loss: 1.4181
+2023-01-05 15:40:26,353 - mytest - INFO - average test acc: 70.81%
+2023-01-05 15:40:26,353 - mytest - INFO - average test loss: 1.4023
+2023-01-05 15:40:39,621 - mytest - INFO - Epoch: 152
+2023-01-05 15:40:39,622 - mytest - INFO - Train loss: 1.3978
+2023-01-05 15:41:01,561 - mytest - INFO - average train acc: 68.88%
+2023-01-05 15:41:01,561 - mytest - INFO - average train loss: 1.4142
+2023-01-05 15:41:01,561 - mytest - INFO - average test acc: 69.65%
+2023-01-05 15:41:01,561 - mytest - INFO - average test loss: 1.3980
+2023-01-05 15:41:14,271 - mytest - INFO - Epoch: 153
+2023-01-05 15:41:14,271 - mytest - INFO - Train loss: 1.3936
+2023-01-05 15:41:35,911 - mytest - INFO - average train acc: 70.86%
+2023-01-05 15:41:35,911 - mytest - INFO - average train loss: 1.3985
+2023-01-05 15:41:35,911 - mytest - INFO - average test acc: 71.23%
+2023-01-05 15:41:35,911 - mytest - INFO - average test loss: 1.3822
+2023-01-05 15:41:49,102 - mytest - INFO - Epoch: 154
+2023-01-05 15:41:49,103 - mytest - INFO - Train loss: 1.3788
+2023-01-05 15:42:11,476 - mytest - INFO - average train acc: 71.37%
+2023-01-05 15:42:11,477 - mytest - INFO - average train loss: 1.3924
+2023-01-05 15:42:11,477 - mytest - INFO - average test acc: 72.28%
+2023-01-05 15:42:11,477 - mytest - INFO - average test loss: 1.3757
+2023-01-05 15:42:25,971 - mytest - INFO - Epoch: 155
+2023-01-05 15:42:25,972 - mytest - INFO - Train loss: 1.3753
+2023-01-05 15:42:48,055 - mytest - INFO - average train acc: 68.30%
+2023-01-05 15:42:48,055 - mytest - INFO - average train loss: 1.3888
+2023-01-05 15:42:48,055 - mytest - INFO - average test acc: 69.31%
+2023-01-05 15:42:48,055 - mytest - INFO - average test loss: 1.3713
+2023-01-05 15:43:00,411 - mytest - INFO - Epoch: 156
+2023-01-05 15:43:00,411 - mytest - INFO - Train loss: 1.3764
+2023-01-05 15:43:23,709 - mytest - INFO - average train acc: 70.58%
+2023-01-05 15:43:23,710 - mytest - INFO - average train loss: 1.3778
+2023-01-05 15:43:23,710 - mytest - INFO - average test acc: 71.31%
+2023-01-05 15:43:23,710 - mytest - INFO - average test loss: 1.3599
+2023-01-05 15:43:38,145 - mytest - INFO - Epoch: 157
+2023-01-05 15:43:38,146 - mytest - INFO - Train loss: 1.3617
+2023-01-05 15:44:00,734 - mytest - INFO - average train acc: 70.61%
+2023-01-05 15:44:00,735 - mytest - INFO - average train loss: 1.3683
+2023-01-05 15:44:00,735 - mytest - INFO - average test acc: 71.58%
+2023-01-05 15:44:00,735 - mytest - INFO - average test loss: 1.3498
+2023-01-05 15:44:14,034 - mytest - INFO - Epoch: 158
+2023-01-05 15:44:14,034 - mytest - INFO - Train loss: 1.3545
+2023-01-05 15:44:35,767 - mytest - INFO - average train acc: 70.25%
+2023-01-05 15:44:35,767 - mytest - INFO - average train loss: 1.3659
+2023-01-05 15:44:35,767 - mytest - INFO - average test acc: 71.18%
+2023-01-05 15:44:35,767 - mytest - INFO - average test loss: 1.3474
+2023-01-05 15:44:48,266 - mytest - INFO - Epoch: 159
+2023-01-05 15:44:48,266 - mytest - INFO - Train loss: 1.3515
+2023-01-05 15:45:10,574 - mytest - INFO - average train acc: 73.77%
+2023-01-05 15:45:10,574 - mytest - INFO - average train loss: 1.3477
+2023-01-05 15:45:10,575 - mytest - INFO - average test acc: 75.30%
+2023-01-05 15:45:10,575 - mytest - INFO - average test loss: 1.3289
+2023-01-05 15:45:23,289 - mytest - INFO - Epoch: 160
+2023-01-05 15:45:23,289 - mytest - INFO - Train loss: 1.3387
+2023-01-05 15:45:46,212 - mytest - INFO - average train acc: 75.73%
+2023-01-05 15:45:46,212 - mytest - INFO - average train loss: 1.3356
+2023-01-05 15:45:46,212 - mytest - INFO - average test acc: 77.07%
+2023-01-05 15:45:46,212 - mytest - INFO - average test loss: 1.3170
+2023-01-05 15:45:59,394 - mytest - INFO - Epoch: 161
+2023-01-05 15:45:59,394 - mytest - INFO - Train loss: 1.3262
+2023-01-05 15:46:21,331 - mytest - INFO - average train acc: 76.47%
+2023-01-05 15:46:21,331 - mytest - INFO - average train loss: 1.3245
+2023-01-05 15:46:21,331 - mytest - INFO - average test acc: 77.34%
+2023-01-05 15:46:21,331 - mytest - INFO - average test loss: 1.3062
+2023-01-05 15:46:34,136 - mytest - INFO - Epoch: 162
+2023-01-05 15:46:34,136 - mytest - INFO - Train loss: 1.3105
+2023-01-05 15:46:56,097 - mytest - INFO - average train acc: 76.02%
+2023-01-05 15:46:56,097 - mytest - INFO - average train loss: 1.3186
+2023-01-05 15:46:56,097 - mytest - INFO - average test acc: 77.06%
+2023-01-05 15:46:56,097 - mytest - INFO - average test loss: 1.3006
+2023-01-05 15:47:09,962 - mytest - INFO - Epoch: 163
+2023-01-05 15:47:09,962 - mytest - INFO - Train loss: 1.3030
+2023-01-05 15:47:32,116 - mytest - INFO - average train acc: 76.98%
+2023-01-05 15:47:32,117 - mytest - INFO - average train loss: 1.3141
+2023-01-05 15:47:32,117 - mytest - INFO - average test acc: 78.15%
+2023-01-05 15:47:32,117 - mytest - INFO - average test loss: 1.2954
+2023-01-05 15:47:45,592 - mytest - INFO - Epoch: 164
+2023-01-05 15:47:45,592 - mytest - INFO - Train loss: 1.2957
+2023-01-05 15:48:07,492 - mytest - INFO - average train acc: 74.94%
+2023-01-05 15:48:07,492 - mytest - INFO - average train loss: 1.3091
+2023-01-05 15:48:07,492 - mytest - INFO - average test acc: 75.92%
+2023-01-05 15:48:07,492 - mytest - INFO - average test loss: 1.2902
+2023-01-05 15:48:21,141 - mytest - INFO - Epoch: 165
+2023-01-05 15:48:21,141 - mytest - INFO - Train loss: 1.2912
+2023-01-05 15:48:42,731 - mytest - INFO - average train acc: 73.81%
+2023-01-05 15:48:42,732 - mytest - INFO - average train loss: 1.3026
+2023-01-05 15:48:42,732 - mytest - INFO - average test acc: 75.04%
+2023-01-05 15:48:42,732 - mytest - INFO - average test loss: 1.2838
+2023-01-05 15:48:56,387 - mytest - INFO - Epoch: 166
+2023-01-05 15:48:56,387 - mytest - INFO - Train loss: 1.2828
+2023-01-05 15:49:18,560 - mytest - INFO - average train acc: 73.50%
+2023-01-05 15:49:18,560 - mytest - INFO - average train loss: 1.2958
+2023-01-05 15:49:18,560 - mytest - INFO - average test acc: 74.89%
+2023-01-05 15:49:18,560 - mytest - INFO - average test loss: 1.2763
+2023-01-05 15:49:31,118 - mytest - INFO - Epoch: 167
+2023-01-05 15:49:31,118 - mytest - INFO - Train loss: 1.2759
+2023-01-05 15:49:53,315 - mytest - INFO - average train acc: 72.71%
+2023-01-05 15:49:53,315 - mytest - INFO - average train loss: 1.2933
+2023-01-05 15:49:53,315 - mytest - INFO - average test acc: 74.29%
+2023-01-05 15:49:53,315 - mytest - INFO - average test loss: 1.2738
+2023-01-05 15:50:07,622 - mytest - INFO - Epoch: 168
+2023-01-05 15:50:07,623 - mytest - INFO - Train loss: 1.2716
+2023-01-05 15:50:29,460 - mytest - INFO - average train acc: 72.11%
+2023-01-05 15:50:29,471 - mytest - INFO - average train loss: 1.2915
+2023-01-05 15:50:29,471 - mytest - INFO - average test acc: 73.52%
+2023-01-05 15:50:29,471 - mytest - INFO - average test loss: 1.2724
+2023-01-05 15:50:42,170 - mytest - INFO - Epoch: 169
+2023-01-05 15:50:42,170 - mytest - INFO - Train loss: 1.2656
+2023-01-05 15:51:05,530 - mytest - INFO - average train acc: 72.97%
+2023-01-05 15:51:05,530 - mytest - INFO - average train loss: 1.2762
+2023-01-05 15:51:05,530 - mytest - INFO - average test acc: 74.26%
+2023-01-05 15:51:05,530 - mytest - INFO - average test loss: 1.2564
+2023-01-05 15:51:18,035 - mytest - INFO - Epoch: 170
+2023-01-05 15:51:18,035 - mytest - INFO - Train loss: 1.2525
+2023-01-05 15:51:41,243 - mytest - INFO - average train acc: 73.00%
+2023-01-05 15:51:41,244 - mytest - INFO - average train loss: 1.2701
+2023-01-05 15:51:41,244 - mytest - INFO - average test acc: 74.30%
+2023-01-05 15:51:41,244 - mytest - INFO - average test loss: 1.2502
+2023-01-05 15:51:53,976 - mytest - INFO - Epoch: 171
+2023-01-05 15:51:53,976 - mytest - INFO - Train loss: 1.2474
+2023-01-05 15:52:16,416 - mytest - INFO - average train acc: 72.12%
+2023-01-05 15:52:16,416 - mytest - INFO - average train loss: 1.2695
+2023-01-05 15:52:16,416 - mytest - INFO - average test acc: 73.36%
+2023-01-05 15:52:16,416 - mytest - INFO - average test loss: 1.2495
+2023-01-05 15:52:29,119 - mytest - INFO - Epoch: 172
+2023-01-05 15:52:29,119 - mytest - INFO - Train loss: 1.2422
+2023-01-05 15:52:51,114 - mytest - INFO - average train acc: 73.22%
+2023-01-05 15:52:51,114 - mytest - INFO - average train loss: 1.2544
+2023-01-05 15:52:51,115 - mytest - INFO - average test acc: 74.54%
+2023-01-05 15:52:51,115 - mytest - INFO - average test loss: 1.2345
+2023-01-05 15:53:03,779 - mytest - INFO - Epoch: 173
+2023-01-05 15:53:03,779 - mytest - INFO - Train loss: 1.2303
+2023-01-05 15:53:25,825 - mytest - INFO - average train acc: 73.89%
+2023-01-05 15:53:25,826 - mytest - INFO - average train loss: 1.2482
+2023-01-05 15:53:25,826 - mytest - INFO - average test acc: 74.92%
+2023-01-05 15:53:25,826 - mytest - INFO - average test loss: 1.2279
+2023-01-05 15:53:38,617 - mytest - INFO - Epoch: 174
+2023-01-05 15:53:38,617 - mytest - INFO - Train loss: 1.2228
+2023-01-05 15:54:00,768 - mytest - INFO - average train acc: 72.82%
+2023-01-05 15:54:00,768 - mytest - INFO - average train loss: 1.2530
+2023-01-05 15:54:00,768 - mytest - INFO - average test acc: 74.02%
+2023-01-05 15:54:00,768 - mytest - INFO - average test loss: 1.2326
+2023-01-05 15:54:13,794 - mytest - INFO - Epoch: 175
+2023-01-05 15:54:13,795 - mytest - INFO - Train loss: 1.2229
+2023-01-05 15:54:37,057 - mytest - INFO - average train acc: 72.19%
+2023-01-05 15:54:37,058 - mytest - INFO - average train loss: 1.2558
+2023-01-05 15:54:37,058 - mytest - INFO - average test acc: 73.36%
+2023-01-05 15:54:37,058 - mytest - INFO - average test loss: 1.2361
+2023-01-05 15:54:50,745 - mytest - INFO - Epoch: 176
+2023-01-05 15:54:50,745 - mytest - INFO - Train loss: 1.2226
+2023-01-05 15:55:13,017 - mytest - INFO - average train acc: 72.13%
+2023-01-05 15:55:13,017 - mytest - INFO - average train loss: 1.2514
+2023-01-05 15:55:13,017 - mytest - INFO - average test acc: 73.31%
+2023-01-05 15:55:13,017 - mytest - INFO - average test loss: 1.2321
+2023-01-05 15:55:26,511 - mytest - INFO - Epoch: 177
+2023-01-05 15:55:26,511 - mytest - INFO - Train loss: 1.2200
+2023-01-05 15:55:49,248 - mytest - INFO - average train acc: 71.89%
+2023-01-05 15:55:49,248 - mytest - INFO - average train loss: 1.2453
+2023-01-05 15:55:49,248 - mytest - INFO - average test acc: 72.96%
+2023-01-05 15:55:49,248 - mytest - INFO - average test loss: 1.2258
+2023-01-05 15:56:02,664 - mytest - INFO - Epoch: 178
+2023-01-05 15:56:02,664 - mytest - INFO - Train loss: 1.2147
+2023-01-05 15:56:24,763 - mytest - INFO - average train acc: 70.91%
+2023-01-05 15:56:24,763 - mytest - INFO - average train loss: 1.2446
+2023-01-05 15:56:24,763 - mytest - INFO - average test acc: 72.23%
+2023-01-05 15:56:24,763 - mytest - INFO - average test loss: 1.2253
+2023-01-05 15:56:37,459 - mytest - INFO - Epoch: 179
+2023-01-05 15:56:37,459 - mytest - INFO - Train loss: 1.2097
+2023-01-05 15:57:00,405 - mytest - INFO - average train acc: 72.13%
+2023-01-05 15:57:00,405 - mytest - INFO - average train loss: 1.2501
+2023-01-05 15:57:00,406 - mytest - INFO - average test acc: 72.95%
+2023-01-05 15:57:00,406 - mytest - INFO - average test loss: 1.2309
+2023-01-05 15:57:13,554 - mytest - INFO - Epoch: 180
+2023-01-05 15:57:13,554 - mytest - INFO - Train loss: 1.2119
+2023-01-05 15:57:36,021 - mytest - INFO - average train acc: 71.79%
+2023-01-05 15:57:36,021 - mytest - INFO - average train loss: 1.2493
+2023-01-05 15:57:36,021 - mytest - INFO - average test acc: 72.36%
+2023-01-05 15:57:36,021 - mytest - INFO - average test loss: 1.2307
+2023-01-05 15:57:48,227 - mytest - INFO - Epoch: 181
+2023-01-05 15:57:48,228 - mytest - INFO - Train loss: 1.2113
+2023-01-05 15:58:10,590 - mytest - INFO - average train acc: 72.56%
+2023-01-05 15:58:10,591 - mytest - INFO - average train loss: 1.2223
+2023-01-05 15:58:10,591 - mytest - INFO - average test acc: 73.24%
+2023-01-05 15:58:10,591 - mytest - INFO - average test loss: 1.2023
+2023-01-05 15:58:23,891 - mytest - INFO - Epoch: 182
+2023-01-05 15:58:23,891 - mytest - INFO - Train loss: 1.1921
+2023-01-05 15:58:46,632 - mytest - INFO - average train acc: 71.70%
+2023-01-05 15:58:46,633 - mytest - INFO - average train loss: 1.2246
+2023-01-05 15:58:46,633 - mytest - INFO - average test acc: 71.87%
+2023-01-05 15:58:46,633 - mytest - INFO - average test loss: 1.2052
+2023-01-05 15:59:00,444 - mytest - INFO - Epoch: 183
+2023-01-05 15:59:00,444 - mytest - INFO - Train loss: 1.1918
+2023-01-05 15:59:22,625 - mytest - INFO - average train acc: 72.55%
+2023-01-05 15:59:22,626 - mytest - INFO - average train loss: 1.2115
+2023-01-05 15:59:22,626 - mytest - INFO - average test acc: 73.37%
+2023-01-05 15:59:22,626 - mytest - INFO - average test loss: 1.1913
+2023-01-05 15:59:36,445 - mytest - INFO - Epoch: 184
+2023-01-05 15:59:36,445 - mytest - INFO - Train loss: 1.1816
+2023-01-05 15:59:58,587 - mytest - INFO - average train acc: 73.82%
+2023-01-05 15:59:58,587 - mytest - INFO - average train loss: 1.1962
+2023-01-05 15:59:58,587 - mytest - INFO - average test acc: 74.61%
+2023-01-05 15:59:58,587 - mytest - INFO - average test loss: 1.1757
+2023-01-05 16:00:12,984 - mytest - INFO - Epoch: 185
+2023-01-05 16:00:12,984 - mytest - INFO - Train loss: 1.1696
+2023-01-05 16:00:35,282 - mytest - INFO - average train acc: 73.77%
+2023-01-05 16:00:35,282 - mytest - INFO - average train loss: 1.1888
+2023-01-05 16:00:35,282 - mytest - INFO - average test acc: 74.83%
+2023-01-05 16:00:35,282 - mytest - INFO - average test loss: 1.1675
+2023-01-05 16:00:47,789 - mytest - INFO - Epoch: 186
+2023-01-05 16:00:47,789 - mytest - INFO - Train loss: 1.1614
+2023-01-05 16:01:09,987 - mytest - INFO - average train acc: 74.22%
+2023-01-05 16:01:09,987 - mytest - INFO - average train loss: 1.1835
+2023-01-05 16:01:09,987 - mytest - INFO - average test acc: 75.05%
+2023-01-05 16:01:09,987 - mytest - INFO - average test loss: 1.1623
+2023-01-05 16:01:22,629 - mytest - INFO - Epoch: 187
+2023-01-05 16:01:22,629 - mytest - INFO - Train loss: 1.1561
+2023-01-05 16:01:45,278 - mytest - INFO - average train acc: 74.62%
+2023-01-05 16:01:45,278 - mytest - INFO - average train loss: 1.1725
+2023-01-05 16:01:45,278 - mytest - INFO - average test acc: 75.96%
+2023-01-05 16:01:45,278 - mytest - INFO - average test loss: 1.1501
+2023-01-05 16:01:57,507 - mytest - INFO - Epoch: 188
+2023-01-05 16:01:57,507 - mytest - INFO - Train loss: 1.1484
+2023-01-05 16:02:19,830 - mytest - INFO - average train acc: 73.89%
+2023-01-05 16:02:19,831 - mytest - INFO - average train loss: 1.1630
+2023-01-05 16:02:19,831 - mytest - INFO - average test acc: 75.23%
+2023-01-05 16:02:19,831 - mytest - INFO - average test loss: 1.1406
+2023-01-05 16:02:32,915 - mytest - INFO - Epoch: 189
+2023-01-05 16:02:32,915 - mytest - INFO - Train loss: 1.1433
+2023-01-05 16:02:54,697 - mytest - INFO - average train acc: 73.54%
+2023-01-05 16:02:54,698 - mytest - INFO - average train loss: 1.1576
+2023-01-05 16:02:54,698 - mytest - INFO - average test acc: 74.79%
+2023-01-05 16:02:54,698 - mytest - INFO - average test loss: 1.1357
+2023-01-05 16:03:07,140 - mytest - INFO - Epoch: 190
+2023-01-05 16:03:07,141 - mytest - INFO - Train loss: 1.1414
+2023-01-05 16:03:29,113 - mytest - INFO - average train acc: 74.29%
+2023-01-05 16:03:29,113 - mytest - INFO - average train loss: 1.1460
+2023-01-05 16:03:29,114 - mytest - INFO - average test acc: 75.56%
+2023-01-05 16:03:29,114 - mytest - INFO - average test loss: 1.1242
+2023-01-05 16:03:42,764 - mytest - INFO - Epoch: 191
+2023-01-05 16:03:42,764 - mytest - INFO - Train loss: 1.1324
+2023-01-05 16:04:05,047 - mytest - INFO - average train acc: 74.88%
+2023-01-05 16:04:05,047 - mytest - INFO - average train loss: 1.1364
+2023-01-05 16:04:05,048 - mytest - INFO - average test acc: 76.04%
+2023-01-05 16:04:05,048 - mytest - INFO - average test loss: 1.1134
+2023-01-05 16:04:18,243 - mytest - INFO - Epoch: 192
+2023-01-05 16:04:18,244 - mytest - INFO - Train loss: 1.1266
+2023-01-05 16:04:40,186 - mytest - INFO - average train acc: 74.49%
+2023-01-05 16:04:40,186 - mytest - INFO - average train loss: 1.1298
+2023-01-05 16:04:40,186 - mytest - INFO - average test acc: 76.04%
+2023-01-05 16:04:40,186 - mytest - INFO - average test loss: 1.1068
+2023-01-05 16:04:53,748 - mytest - INFO - Epoch: 193
+2023-01-05 16:04:53,748 - mytest - INFO - Train loss: 1.1195
+2023-01-05 16:05:16,160 - mytest - INFO - average train acc: 75.36%
+2023-01-05 16:05:16,160 - mytest - INFO - average train loss: 1.1221
+2023-01-05 16:05:16,161 - mytest - INFO - average test acc: 76.63%
+2023-01-05 16:05:16,161 - mytest - INFO - average test loss: 1.0984
+2023-01-05 16:05:28,831 - mytest - INFO - Epoch: 194
+2023-01-05 16:05:28,832 - mytest - INFO - Train loss: 1.1117
+2023-01-05 16:05:50,336 - mytest - INFO - average train acc: 76.47%
+2023-01-05 16:05:50,337 - mytest - INFO - average train loss: 1.1135
+2023-01-05 16:05:50,337 - mytest - INFO - average test acc: 77.75%
+2023-01-05 16:05:50,337 - mytest - INFO - average test loss: 1.0901
+2023-01-05 16:06:04,037 - mytest - INFO - Epoch: 195
+2023-01-05 16:06:04,046 - mytest - INFO - Train loss: 1.1066
+2023-01-05 16:06:26,764 - mytest - INFO - average train acc: 76.53%
+2023-01-05 16:06:26,764 - mytest - INFO - average train loss: 1.1191
+2023-01-05 16:06:26,764 - mytest - INFO - average test acc: 77.49%
+2023-01-05 16:06:26,764 - mytest - INFO - average test loss: 1.0963
+2023-01-05 16:06:39,010 - mytest - INFO - Epoch: 196
+2023-01-05 16:06:39,012 - mytest - INFO - Train loss: 1.1007
+2023-01-05 16:07:01,477 - mytest - INFO - average train acc: 78.19%
+2023-01-05 16:07:01,480 - mytest - INFO - average train loss: 1.1115
+2023-01-05 16:07:01,480 - mytest - INFO - average test acc: 78.90%
+2023-01-05 16:07:01,480 - mytest - INFO - average test loss: 1.0886
+2023-01-05 16:07:14,373 - mytest - INFO - Epoch: 197
+2023-01-05 16:07:14,373 - mytest - INFO - Train loss: 1.0919
+2023-01-05 16:07:37,101 - mytest - INFO - average train acc: 78.68%
+2023-01-05 16:07:37,101 - mytest - INFO - average train loss: 1.1038
+2023-01-05 16:07:37,101 - mytest - INFO - average test acc: 79.56%
+2023-01-05 16:07:37,102 - mytest - INFO - average test loss: 1.0812
+2023-01-05 16:07:49,738 - mytest - INFO - Epoch: 198
+2023-01-05 16:07:49,738 - mytest - INFO - Train loss: 1.0924
+2023-01-05 16:08:12,367 - mytest - INFO - average train acc: 79.98%
+2023-01-05 16:08:12,367 - mytest - INFO - average train loss: 1.0901
+2023-01-05 16:08:12,367 - mytest - INFO - average test acc: 80.91%
+2023-01-05 16:08:12,367 - mytest - INFO - average test loss: 1.0670
+2023-01-05 16:08:25,176 - mytest - INFO - Epoch: 199
+2023-01-05 16:08:25,179 - mytest - INFO - Train loss: 1.0785
+2023-01-05 16:08:46,340 - mytest - INFO - average train acc: 79.61%
+2023-01-05 16:08:46,340 - mytest - INFO - average train loss: 1.0857
+2023-01-05 16:08:46,340 - mytest - INFO - average test acc: 80.77%
+2023-01-05 16:08:46,341 - mytest - INFO - average test loss: 1.0623
+2023-01-05 16:08:59,222 - mytest - INFO - Epoch: 200
+2023-01-05 16:08:59,223 - mytest - INFO - Train loss: 1.0789
+2023-01-05 16:09:21,719 - mytest - INFO - average train acc: 80.46%
+2023-01-05 16:09:21,719 - mytest - INFO - average train loss: 1.0786
+2023-01-05 16:09:21,719 - mytest - INFO - average test acc: 81.49%
+2023-01-05 16:09:21,719 - mytest - INFO - average test loss: 1.0549
+2023-01-05 16:09:35,465 - mytest - INFO - Epoch: 201
+2023-01-05 16:09:35,465 - mytest - INFO - Train loss: 1.0703
+2023-01-05 16:09:57,550 - mytest - INFO - average train acc: 80.31%
+2023-01-05 16:09:57,550 - mytest - INFO - average train loss: 1.0824
+2023-01-05 16:09:57,550 - mytest - INFO - average test acc: 81.10%
+2023-01-05 16:09:57,550 - mytest - INFO - average test loss: 1.0590
+2023-01-05 16:10:09,073 - mytest - INFO - Epoch: 202
+2023-01-05 16:10:09,073 - mytest - INFO - Train loss: 1.0690
+2023-01-05 16:10:29,159 - mytest - INFO - average train acc: 80.97%
+2023-01-05 16:10:29,159 - mytest - INFO - average train loss: 1.0731
+2023-01-05 16:10:29,159 - mytest - INFO - average test acc: 81.75%
+2023-01-05 16:10:29,159 - mytest - INFO - average test loss: 1.0488
+2023-01-05 16:10:40,757 - mytest - INFO - Epoch: 203
+2023-01-05 16:10:40,757 - mytest - INFO - Train loss: 1.0575
+2023-01-05 16:11:00,761 - mytest - INFO - average train acc: 79.48%
+2023-01-05 16:11:00,761 - mytest - INFO - average train loss: 1.0730
+2023-01-05 16:11:00,761 - mytest - INFO - average test acc: 80.35%
+2023-01-05 16:11:00,761 - mytest - INFO - average test loss: 1.0489
+2023-01-05 16:11:12,173 - mytest - INFO - Epoch: 204
+2023-01-05 16:11:12,173 - mytest - INFO - Train loss: 1.0550
+2023-01-05 16:11:32,163 - mytest - INFO - average train acc: 79.14%
+2023-01-05 16:11:32,163 - mytest - INFO - average train loss: 1.0677
+2023-01-05 16:11:32,163 - mytest - INFO - average test acc: 80.39%
+2023-01-05 16:11:32,163 - mytest - INFO - average test loss: 1.0445
+2023-01-05 16:11:43,469 - mytest - INFO - Epoch: 205
+2023-01-05 16:11:43,470 - mytest - INFO - Train loss: 1.0518
+2023-01-05 16:12:03,277 - mytest - INFO - average train acc: 79.12%
+2023-01-05 16:12:03,278 - mytest - INFO - average train loss: 1.0590
+2023-01-05 16:12:03,278 - mytest - INFO - average test acc: 80.63%
+2023-01-05 16:12:03,278 - mytest - INFO - average test loss: 1.0352
+2023-01-05 16:12:14,463 - mytest - INFO - Epoch: 206
+2023-01-05 16:12:14,463 - mytest - INFO - Train loss: 1.0442
+2023-01-05 16:12:34,818 - mytest - INFO - average train acc: 76.83%
+2023-01-05 16:12:34,818 - mytest - INFO - average train loss: 1.0637
+2023-01-05 16:12:34,819 - mytest - INFO - average test acc: 78.31%
+2023-01-05 16:12:34,819 - mytest - INFO - average test loss: 1.0403
+2023-01-05 16:12:46,114 - mytest - INFO - Epoch: 207
+2023-01-05 16:12:46,114 - mytest - INFO - Train loss: 1.0422
+2023-01-05 16:13:06,175 - mytest - INFO - average train acc: 77.00%
+2023-01-05 16:13:06,176 - mytest - INFO - average train loss: 1.0610
+2023-01-05 16:13:06,176 - mytest - INFO - average test acc: 78.47%
+2023-01-05 16:13:06,176 - mytest - INFO - average test loss: 1.0376
+2023-01-05 16:13:17,357 - mytest - INFO - Epoch: 208
+2023-01-05 16:13:17,357 - mytest - INFO - Train loss: 1.0385
+2023-01-05 16:13:37,097 - mytest - INFO - average train acc: 78.61%
+2023-01-05 16:13:37,099 - mytest - INFO - average train loss: 1.0513
+2023-01-05 16:13:37,099 - mytest - INFO - average test acc: 79.99%
+2023-01-05 16:13:37,099 - mytest - INFO - average test loss: 1.0279
+2023-01-05 16:13:48,423 - mytest - INFO - Epoch: 209
+2023-01-05 16:13:48,423 - mytest - INFO - Train loss: 1.0307
+2023-01-05 16:14:08,126 - mytest - INFO - average train acc: 80.28%
+2023-01-05 16:14:08,127 - mytest - INFO - average train loss: 1.0396
+2023-01-05 16:14:08,127 - mytest - INFO - average test acc: 81.15%
+2023-01-05 16:14:08,127 - mytest - INFO - average test loss: 1.0160
+2023-01-05 16:14:19,337 - mytest - INFO - Epoch: 210
+2023-01-05 16:14:19,337 - mytest - INFO - Train loss: 1.0236
+2023-01-05 16:14:39,441 - mytest - INFO - average train acc: 79.86%
+2023-01-05 16:14:39,441 - mytest - INFO - average train loss: 1.0318
+2023-01-05 16:14:39,441 - mytest - INFO - average test acc: 80.80%
+2023-01-05 16:14:39,442 - mytest - INFO - average test loss: 1.0080
+2023-01-05 16:14:50,635 - mytest - INFO - Epoch: 211
+2023-01-05 16:14:50,635 - mytest - INFO - Train loss: 1.0200
+2023-01-05 16:15:10,856 - mytest - INFO - average train acc: 80.69%
+2023-01-05 16:15:10,858 - mytest - INFO - average train loss: 1.0220
+2023-01-05 16:15:10,859 - mytest - INFO - average test acc: 82.15%
+2023-01-05 16:15:10,859 - mytest - INFO - average test loss: 0.9974
+2023-01-05 16:15:21,991 - mytest - INFO - Epoch: 212
+2023-01-05 16:15:21,993 - mytest - INFO - Train loss: 1.0126
+2023-01-05 16:15:42,023 - mytest - INFO - average train acc: 80.14%
+2023-01-05 16:15:42,023 - mytest - INFO - average train loss: 1.0221
+2023-01-05 16:15:42,023 - mytest - INFO - average test acc: 81.25%
+2023-01-05 16:15:42,023 - mytest - INFO - average test loss: 0.9974
+2023-01-05 16:15:53,316 - mytest - INFO - Epoch: 213
+2023-01-05 16:15:53,316 - mytest - INFO - Train loss: 1.0083
+2023-01-05 16:16:13,127 - mytest - INFO - average train acc: 79.13%
+2023-01-05 16:16:13,127 - mytest - INFO - average train loss: 1.0151
+2023-01-05 16:16:13,127 - mytest - INFO - average test acc: 80.45%
+2023-01-05 16:16:13,127 - mytest - INFO - average test loss: 0.9909
+2023-01-05 16:16:24,563 - mytest - INFO - Epoch: 214
+2023-01-05 16:16:24,563 - mytest - INFO - Train loss: 1.0051
+2023-01-05 16:16:44,512 - mytest - INFO - average train acc: 78.93%
+2023-01-05 16:16:44,513 - mytest - INFO - average train loss: 1.0068
+2023-01-05 16:16:44,513 - mytest - INFO - average test acc: 80.29%
+2023-01-05 16:16:44,513 - mytest - INFO - average test loss: 0.9813
+2023-01-05 16:16:55,813 - mytest - INFO - Epoch: 215
+2023-01-05 16:16:55,813 - mytest - INFO - Train loss: 0.9973
+2023-01-05 16:17:16,219 - mytest - INFO - average train acc: 78.89%
+2023-01-05 16:17:16,219 - mytest - INFO - average train loss: 1.0021
+2023-01-05 16:17:16,219 - mytest - INFO - average test acc: 80.16%
+2023-01-05 16:17:16,220 - mytest - INFO - average test loss: 0.9772
+2023-01-05 16:17:27,582 - mytest - INFO - Epoch: 216
+2023-01-05 16:17:27,582 - mytest - INFO - Train loss: 0.9902
+2023-01-05 16:17:48,110 - mytest - INFO - average train acc: 78.22%
+2023-01-05 16:17:48,111 - mytest - INFO - average train loss: 0.9996
+2023-01-05 16:17:48,111 - mytest - INFO - average test acc: 79.31%
+2023-01-05 16:17:48,111 - mytest - INFO - average test loss: 0.9746
+2023-01-05 16:17:59,424 - mytest - INFO - Epoch: 217
+2023-01-05 16:17:59,424 - mytest - INFO - Train loss: 0.9871
+2023-01-05 16:18:19,826 - mytest - INFO - average train acc: 77.89%
+2023-01-05 16:18:19,826 - mytest - INFO - average train loss: 0.9982
+2023-01-05 16:18:19,826 - mytest - INFO - average test acc: 78.99%
+2023-01-05 16:18:19,826 - mytest - INFO - average test loss: 0.9722
+2023-01-05 16:18:31,204 - mytest - INFO - Epoch: 218
+2023-01-05 16:18:31,204 - mytest - INFO - Train loss: 0.9832
+2023-01-05 16:18:51,183 - mytest - INFO - average train acc: 77.45%
+2023-01-05 16:18:51,183 - mytest - INFO - average train loss: 0.9998
+2023-01-05 16:18:51,183 - mytest - INFO - average test acc: 78.73%
+2023-01-05 16:18:51,183 - mytest - INFO - average test loss: 0.9747
+2023-01-05 16:19:02,593 - mytest - INFO - Epoch: 219
+2023-01-05 16:19:02,593 - mytest - INFO - Train loss: 0.9823
+2023-01-05 16:19:23,087 - mytest - INFO - average train acc: 80.17%
+2023-01-05 16:19:23,087 - mytest - INFO - average train loss: 0.9843
+2023-01-05 16:19:23,087 - mytest - INFO - average test acc: 81.69%
+2023-01-05 16:19:23,087 - mytest - INFO - average test loss: 0.9589
+2023-01-05 16:19:34,683 - mytest - INFO - Epoch: 220
+2023-01-05 16:19:34,684 - mytest - INFO - Train loss: 0.9715
+2023-01-05 16:19:54,844 - mytest - INFO - average train acc: 79.60%
+2023-01-05 16:19:54,844 - mytest - INFO - average train loss: 0.9889
+2023-01-05 16:19:54,844 - mytest - INFO - average test acc: 80.69%
+2023-01-05 16:19:54,844 - mytest - INFO - average test loss: 0.9641
+2023-01-05 16:20:06,231 - mytest - INFO - Epoch: 221
+2023-01-05 16:20:06,233 - mytest - INFO - Train loss: 0.9754
+2023-01-05 16:20:26,413 - mytest - INFO - average train acc: 80.86%
+2023-01-05 16:20:26,414 - mytest - INFO - average train loss: 0.9791
+2023-01-05 16:20:26,414 - mytest - INFO - average test acc: 82.12%
+2023-01-05 16:20:26,414 - mytest - INFO - average test loss: 0.9539
+2023-01-05 16:20:37,839 - mytest - INFO - Epoch: 222
+2023-01-05 16:20:37,840 - mytest - INFO - Train loss: 0.9659
+2023-01-05 16:20:58,465 - mytest - INFO - average train acc: 80.72%
+2023-01-05 16:20:58,465 - mytest - INFO - average train loss: 0.9745
+2023-01-05 16:20:58,465 - mytest - INFO - average test acc: 81.78%
+2023-01-05 16:20:58,465 - mytest - INFO - average test loss: 0.9496
+2023-01-05 16:21:09,766 - mytest - INFO - Epoch: 223
+2023-01-05 16:21:09,766 - mytest - INFO - Train loss: 0.9596
+2023-01-05 16:21:29,523 - mytest - INFO - average train acc: 81.14%
+2023-01-05 16:21:29,523 - mytest - INFO - average train loss: 0.9630
+2023-01-05 16:21:29,523 - mytest - INFO - average test acc: 82.74%
+2023-01-05 16:21:29,523 - mytest - INFO - average test loss: 0.9366
+2023-01-05 16:21:40,430 - mytest - INFO - Epoch: 224
+2023-01-05 16:21:40,430 - mytest - INFO - Train loss: 0.9511
+2023-01-05 16:21:59,648 - mytest - INFO - average train acc: 81.40%
+2023-01-05 16:21:59,648 - mytest - INFO - average train loss: 0.9555
+2023-01-05 16:21:59,648 - mytest - INFO - average test acc: 83.02%
+2023-01-05 16:21:59,649 - mytest - INFO - average test loss: 0.9299
+2023-01-05 16:22:10,592 - mytest - INFO - Epoch: 225
+2023-01-05 16:22:10,592 - mytest - INFO - Train loss: 0.9470
+2023-01-05 16:22:29,084 - mytest - INFO - average train acc: 79.75%
+2023-01-05 16:22:29,085 - mytest - INFO - average train loss: 0.9629
+2023-01-05 16:22:29,085 - mytest - INFO - average test acc: 81.23%
+2023-01-05 16:22:29,085 - mytest - INFO - average test loss: 0.9379
+2023-01-05 16:22:39,556 - mytest - INFO - Epoch: 226
+2023-01-05 16:22:39,556 - mytest - INFO - Train loss: 0.9535
+2023-01-05 16:22:58,775 - mytest - INFO - average train acc: 80.35%
+2023-01-05 16:22:58,775 - mytest - INFO - average train loss: 0.9660
+2023-01-05 16:22:58,775 - mytest - INFO - average test acc: 81.07%
+2023-01-05 16:22:58,775 - mytest - INFO - average test loss: 0.9404
+2023-01-05 16:23:09,313 - mytest - INFO - Epoch: 227
+2023-01-05 16:23:09,313 - mytest - INFO - Train loss: 0.9497
+2023-01-05 16:23:27,140 - mytest - INFO - average train acc: 77.50%
+2023-01-05 16:23:27,140 - mytest - INFO - average train loss: 0.9773
+2023-01-05 16:23:27,140 - mytest - INFO - average test acc: 78.54%
+2023-01-05 16:23:27,140 - mytest - INFO - average test loss: 0.9515
+2023-01-05 16:23:37,976 - mytest - INFO - Epoch: 228
+2023-01-05 16:23:37,976 - mytest - INFO - Train loss: 0.9547
+2023-01-05 16:23:56,642 - mytest - INFO - average train acc: 77.55%
+2023-01-05 16:23:56,642 - mytest - INFO - average train loss: 0.9759
+2023-01-05 16:23:56,642 - mytest - INFO - average test acc: 78.62%
+2023-01-05 16:23:56,642 - mytest - INFO - average test loss: 0.9502
+2023-01-05 16:24:06,785 - mytest - INFO - Epoch: 229
+2023-01-05 16:24:06,785 - mytest - INFO - Train loss: 0.9532
+2023-01-05 16:24:26,458 - mytest - INFO - average train acc: 77.06%
+2023-01-05 16:24:26,458 - mytest - INFO - average train loss: 0.9607
+2023-01-05 16:24:26,459 - mytest - INFO - average test acc: 78.46%
+2023-01-05 16:24:26,459 - mytest - INFO - average test loss: 0.9343
+2023-01-05 16:24:36,826 - mytest - INFO - Epoch: 230
+2023-01-05 16:24:36,826 - mytest - INFO - Train loss: 0.9421
+2023-01-05 16:24:55,052 - mytest - INFO - average train acc: 76.05%
+2023-01-05 16:24:55,053 - mytest - INFO - average train loss: 0.9687
+2023-01-05 16:24:55,053 - mytest - INFO - average test acc: 77.32%
+2023-01-05 16:24:55,053 - mytest - INFO - average test loss: 0.9427
+2023-01-05 16:25:05,283 - mytest - INFO - Epoch: 231
+2023-01-05 16:25:05,283 - mytest - INFO - Train loss: 0.9480
+2023-01-05 16:25:22,493 - mytest - INFO - average train acc: 75.44%
+2023-01-05 16:25:22,493 - mytest - INFO - average train loss: 0.9975
+2023-01-05 16:25:22,494 - mytest - INFO - average test acc: 76.30%
+2023-01-05 16:25:22,494 - mytest - INFO - average test loss: 0.9719
+2023-01-05 16:25:32,905 - mytest - INFO - Epoch: 232
+2023-01-05 16:25:32,905 - mytest - INFO - Train loss: 0.9674
+2023-01-05 16:25:52,437 - mytest - INFO - average train acc: 76.17%
+2023-01-05 16:25:52,437 - mytest - INFO - average train loss: 0.9847
+2023-01-05 16:25:52,437 - mytest - INFO - average test acc: 77.30%
+2023-01-05 16:25:52,437 - mytest - INFO - average test loss: 0.9591
+2023-01-05 16:26:03,143 - mytest - INFO - Epoch: 233
+2023-01-05 16:26:03,143 - mytest - INFO - Train loss: 0.9597
+2023-01-05 16:26:22,701 - mytest - INFO - average train acc: 76.77%
+2023-01-05 16:26:22,701 - mytest - INFO - average train loss: 0.9890
+2023-01-05 16:26:22,701 - mytest - INFO - average test acc: 77.85%
+2023-01-05 16:26:22,701 - mytest - INFO - average test loss: 0.9638
+2023-01-05 16:26:33,322 - mytest - INFO - Epoch: 234
+2023-01-05 16:26:33,322 - mytest - INFO - Train loss: 0.9600
+2023-01-05 16:26:51,763 - mytest - INFO - average train acc: 77.03%
+2023-01-05 16:26:51,763 - mytest - INFO - average train loss: 0.9671
+2023-01-05 16:26:51,763 - mytest - INFO - average test acc: 77.63%
+2023-01-05 16:26:51,763 - mytest - INFO - average test loss: 0.9428
+2023-01-05 16:27:01,999 - mytest - INFO - Epoch: 235
+2023-01-05 16:27:02,000 - mytest - INFO - Train loss: 0.9423
+2023-01-05 16:27:20,890 - mytest - INFO - average train acc: 77.27%
+2023-01-05 16:27:20,890 - mytest - INFO - average train loss: 0.9526
+2023-01-05 16:27:20,890 - mytest - INFO - average test acc: 78.03%
+2023-01-05 16:27:20,890 - mytest - INFO - average test loss: 0.9281
+2023-01-05 16:27:31,361 - mytest - INFO - Epoch: 236
+2023-01-05 16:27:31,361 - mytest - INFO - Train loss: 0.9329
+2023-01-05 16:27:47,073 - mytest - INFO - average train acc: 76.47%
+2023-01-05 16:27:47,073 - mytest - INFO - average train loss: 0.9404
+2023-01-05 16:27:47,073 - mytest - INFO - average test acc: 77.78%
+2023-01-05 16:27:47,073 - mytest - INFO - average test loss: 0.9153
+2023-01-05 16:27:58,069 - mytest - INFO - Epoch: 237
+2023-01-05 16:27:58,072 - mytest - INFO - Train loss: 0.9243
+2023-01-05 16:28:16,378 - mytest - INFO - average train acc: 76.29%
+2023-01-05 16:28:16,378 - mytest - INFO - average train loss: 0.9496
+2023-01-05 16:28:16,378 - mytest - INFO - average test acc: 77.34%
+2023-01-05 16:28:16,379 - mytest - INFO - average test loss: 0.9243
+2023-01-05 16:28:27,170 - mytest - INFO - Epoch: 238
+2023-01-05 16:28:27,170 - mytest - INFO - Train loss: 0.9254
+2023-01-05 16:28:45,231 - mytest - INFO - average train acc: 76.41%
+2023-01-05 16:28:45,231 - mytest - INFO - average train loss: 0.9546
+2023-01-05 16:28:45,231 - mytest - INFO - average test acc: 77.71%
+2023-01-05 16:28:45,231 - mytest - INFO - average test loss: 0.9290
+2023-01-05 16:28:55,100 - mytest - INFO - Epoch: 239
+2023-01-05 16:28:55,101 - mytest - INFO - Train loss: 0.9316
+2023-01-05 16:29:09,288 - mytest - INFO - average train acc: 76.69%
+2023-01-05 16:29:09,288 - mytest - INFO - average train loss: 0.9520
+2023-01-05 16:29:09,288 - mytest - INFO - average test acc: 77.78%
+2023-01-05 16:29:09,288 - mytest - INFO - average test loss: 0.9262
+2023-01-05 16:29:19,772 - mytest - INFO - Epoch: 240
+2023-01-05 16:29:19,772 - mytest - INFO - Train loss: 0.9278
+2023-01-05 16:29:37,192 - mytest - INFO - average train acc: 75.87%
+2023-01-05 16:29:37,192 - mytest - INFO - average train loss: 0.9539
+2023-01-05 16:29:37,192 - mytest - INFO - average test acc: 76.98%
+2023-01-05 16:29:37,192 - mytest - INFO - average test loss: 0.9281
+2023-01-05 16:29:48,051 - mytest - INFO - Epoch: 241
+2023-01-05 16:29:48,051 - mytest - INFO - Train loss: 0.9326
+2023-01-05 16:30:06,956 - mytest - INFO - average train acc: 74.45%
+2023-01-05 16:30:06,956 - mytest - INFO - average train loss: 0.9535
+2023-01-05 16:30:06,956 - mytest - INFO - average test acc: 75.23%
+2023-01-05 16:30:06,956 - mytest - INFO - average test loss: 0.9280
+2023-01-05 16:30:16,821 - mytest - INFO - Epoch: 242
+2023-01-05 16:30:16,822 - mytest - INFO - Train loss: 0.9390
+2023-01-05 16:30:29,328 - mytest - INFO - average train acc: 75.17%
+2023-01-05 16:30:29,328 - mytest - INFO - average train loss: 0.9354
+2023-01-05 16:30:29,328 - mytest - INFO - average test acc: 76.17%
+2023-01-05 16:30:29,328 - mytest - INFO - average test loss: 0.9103
+2023-01-05 16:30:40,295 - mytest - INFO - Epoch: 243
+2023-01-05 16:30:40,297 - mytest - INFO - Train loss: 0.9217
+2023-01-05 16:30:58,286 - mytest - INFO - average train acc: 75.72%
+2023-01-05 16:30:58,286 - mytest - INFO - average train loss: 0.9270
+2023-01-05 16:30:58,286 - mytest - INFO - average test acc: 76.89%
+2023-01-05 16:30:58,286 - mytest - INFO - average test loss: 0.9020
+2023-01-05 16:31:09,481 - mytest - INFO - Epoch: 244
+2023-01-05 16:31:09,482 - mytest - INFO - Train loss: 0.9140
+2023-01-05 16:31:24,344 - mytest - INFO - average train acc: 74.16%
+2023-01-05 16:31:24,345 - mytest - INFO - average train loss: 0.9422
+2023-01-05 16:31:24,345 - mytest - INFO - average test acc: 74.84%
+2023-01-05 16:31:24,345 - mytest - INFO - average test loss: 0.9177
+2023-01-05 16:31:34,576 - mytest - INFO - Epoch: 245
+2023-01-05 16:31:34,576 - mytest - INFO - Train loss: 0.9270
+2023-01-05 16:31:47,039 - mytest - INFO - average train acc: 72.41%
+2023-01-05 16:31:47,039 - mytest - INFO - average train loss: 0.9479
+2023-01-05 16:31:47,039 - mytest - INFO - average test acc: 73.48%
+2023-01-05 16:31:47,039 - mytest - INFO - average test loss: 0.9230
+2023-01-05 16:31:57,430 - mytest - INFO - Epoch: 246
+2023-01-05 16:31:57,430 - mytest - INFO - Train loss: 0.9377
+2023-01-05 16:32:14,728 - mytest - INFO - average train acc: 74.33%
+2023-01-05 16:32:14,728 - mytest - INFO - average train loss: 0.9322
+2023-01-05 16:32:14,728 - mytest - INFO - average test acc: 75.25%
+2023-01-05 16:32:14,728 - mytest - INFO - average test loss: 0.9074
+2023-01-05 16:32:25,186 - mytest - INFO - Epoch: 247
+2023-01-05 16:32:25,188 - mytest - INFO - Train loss: 0.9207
+2023-01-05 16:32:40,290 - mytest - INFO - average train acc: 76.39%
+2023-01-05 16:32:40,290 - mytest - INFO - average train loss: 0.9218
+2023-01-05 16:32:40,290 - mytest - INFO - average test acc: 77.39%
+2023-01-05 16:32:40,290 - mytest - INFO - average test loss: 0.8974
+2023-01-05 16:32:50,131 - mytest - INFO - Epoch: 248
+2023-01-05 16:32:50,131 - mytest - INFO - Train loss: 0.9130
+2023-01-05 16:33:07,376 - mytest - INFO - average train acc: 76.21%
+2023-01-05 16:33:07,376 - mytest - INFO - average train loss: 0.9166
+2023-01-05 16:33:07,376 - mytest - INFO - average test acc: 77.72%
+2023-01-05 16:33:07,376 - mytest - INFO - average test loss: 0.8913
+2023-01-05 16:33:18,195 - mytest - INFO - Epoch: 249
+2023-01-05 16:33:18,195 - mytest - INFO - Train loss: 0.9080
+2023-01-05 16:33:34,267 - mytest - INFO - average train acc: 75.86%
+2023-01-05 16:33:34,267 - mytest - INFO - average train loss: 0.9129
+2023-01-05 16:33:34,267 - mytest - INFO - average test acc: 77.19%
+2023-01-05 16:33:34,267 - mytest - INFO - average test loss: 0.8880
+2023-01-05 16:33:42,350 - mytest - INFO - Epoch: 250
+2023-01-05 16:33:42,351 - mytest - INFO - Train loss: 0.8974
+2023-01-05 16:33:57,855 - mytest - INFO - average train acc: 77.91%
+2023-01-05 16:33:57,855 - mytest - INFO - average train loss: 0.8972
+2023-01-05 16:33:57,855 - mytest - INFO - average test acc: 79.16%
+2023-01-05 16:33:57,855 - mytest - INFO - average test loss: 0.8713
+2023-01-05 16:34:08,955 - mytest - INFO - Epoch: 251
+2023-01-05 16:34:08,955 - mytest - INFO - Train loss: 0.8808
+2023-01-05 16:34:21,808 - mytest - INFO - average train acc: 80.30%
+2023-01-05 16:34:21,808 - mytest - INFO - average train loss: 0.8844
+2023-01-05 16:34:21,808 - mytest - INFO - average test acc: 81.82%
+2023-01-05 16:34:21,808 - mytest - INFO - average test loss: 0.8578
+2023-01-05 16:34:30,309 - mytest - INFO - Epoch: 252
+2023-01-05 16:34:30,309 - mytest - INFO - Train loss: 0.8706
+2023-01-05 16:34:46,423 - mytest - INFO - average train acc: 79.42%
+2023-01-05 16:34:46,423 - mytest - INFO - average train loss: 0.8874
+2023-01-05 16:34:46,424 - mytest - INFO - average test acc: 80.92%
+2023-01-05 16:34:46,424 - mytest - INFO - average test loss: 0.8604
+2023-01-05 16:34:57,298 - mytest - INFO - Epoch: 253
+2023-01-05 16:34:57,298 - mytest - INFO - Train loss: 0.8730
+2023-01-05 16:35:13,380 - mytest - INFO - average train acc: 79.45%
+2023-01-05 16:35:13,380 - mytest - INFO - average train loss: 0.8889
+2023-01-05 16:35:13,380 - mytest - INFO - average test acc: 80.68%
+2023-01-05 16:35:13,380 - mytest - INFO - average test loss: 0.8615
+2023-01-05 16:35:23,167 - mytest - INFO - Epoch: 254
+2023-01-05 16:35:23,167 - mytest - INFO - Train loss: 0.8746
+2023-01-05 16:35:37,460 - mytest - INFO - average train acc: 80.11%
+2023-01-05 16:35:37,460 - mytest - INFO - average train loss: 0.8794
+2023-01-05 16:35:37,461 - mytest - INFO - average test acc: 81.21%
+2023-01-05 16:35:37,461 - mytest - INFO - average test loss: 0.8515
+2023-01-05 16:35:47,359 - mytest - INFO - Epoch: 255
+2023-01-05 16:35:47,359 - mytest - INFO - Train loss: 0.8678
+2023-01-05 16:36:02,178 - mytest - INFO - average train acc: 79.21%
+2023-01-05 16:36:02,178 - mytest - INFO - average train loss: 0.8795
+2023-01-05 16:36:02,178 - mytest - INFO - average test acc: 80.30%
+2023-01-05 16:36:02,178 - mytest - INFO - average test loss: 0.8525
+2023-01-05 16:36:12,204 - mytest - INFO - Epoch: 256
+2023-01-05 16:36:12,204 - mytest - INFO - Train loss: 0.8651
+2023-01-05 16:36:24,502 - mytest - INFO - average train acc: 81.29%
+2023-01-05 16:36:24,502 - mytest - INFO - average train loss: 0.8689
+2023-01-05 16:36:24,502 - mytest - INFO - average test acc: 82.30%
+2023-01-05 16:36:24,502 - mytest - INFO - average test loss: 0.8420
+2023-01-05 16:36:34,446 - mytest - INFO - Epoch: 257
+2023-01-05 16:36:34,447 - mytest - INFO - Train loss: 0.8585
+2023-01-05 16:36:48,820 - mytest - INFO - average train acc: 80.76%
+2023-01-05 16:36:48,820 - mytest - INFO - average train loss: 0.8633
+2023-01-05 16:36:48,823 - mytest - INFO - average test acc: 81.62%
+2023-01-05 16:36:48,823 - mytest - INFO - average test loss: 0.8361
+2023-01-05 16:36:58,330 - mytest - INFO - Epoch: 258
+2023-01-05 16:36:58,331 - mytest - INFO - Train loss: 0.8552
+2023-01-05 16:37:16,375 - mytest - INFO - average train acc: 81.06%
+2023-01-05 16:37:16,376 - mytest - INFO - average train loss: 0.8600
+2023-01-05 16:37:16,376 - mytest - INFO - average test acc: 82.06%
+2023-01-05 16:37:16,376 - mytest - INFO - average test loss: 0.8340
+2023-01-05 16:37:26,975 - mytest - INFO - Epoch: 259
+2023-01-05 16:37:26,975 - mytest - INFO - Train loss: 0.8539
+2023-01-05 16:37:43,098 - mytest - INFO - average train acc: 80.48%
+2023-01-05 16:37:43,098 - mytest - INFO - average train loss: 0.8529
+2023-01-05 16:37:43,098 - mytest - INFO - average test acc: 81.97%
+2023-01-05 16:37:43,099 - mytest - INFO - average test loss: 0.8260
+2023-01-05 16:37:53,786 - mytest - INFO - Epoch: 260
+2023-01-05 16:37:53,786 - mytest - INFO - Train loss: 0.8451
+2023-01-05 16:38:11,744 - mytest - INFO - average train acc: 80.33%
+2023-01-05 16:38:11,744 - mytest - INFO - average train loss: 0.8558
+2023-01-05 16:38:11,744 - mytest - INFO - average test acc: 81.57%
+2023-01-05 16:38:11,744 - mytest - INFO - average test loss: 0.8298
+2023-01-05 16:38:21,869 - mytest - INFO - Epoch: 261
+2023-01-05 16:38:21,869 - mytest - INFO - Train loss: 0.8437
+2023-01-05 16:38:33,784 - mytest - INFO - average train acc: 78.21%
+2023-01-05 16:38:33,784 - mytest - INFO - average train loss: 0.8639
+2023-01-05 16:38:33,784 - mytest - INFO - average test acc: 79.22%
+2023-01-05 16:38:33,784 - mytest - INFO - average test loss: 0.8377
+2023-01-05 16:38:43,237 - mytest - INFO - Epoch: 262
+2023-01-05 16:38:43,238 - mytest - INFO - Train loss: 0.8454
+2023-01-05 16:38:56,490 - mytest - INFO - average train acc: 77.46%
+2023-01-05 16:38:56,490 - mytest - INFO - average train loss: 0.8655
+2023-01-05 16:38:56,490 - mytest - INFO - average test acc: 78.66%
+2023-01-05 16:38:56,491 - mytest - INFO - average test loss: 0.8390
+2023-01-05 16:39:05,167 - mytest - INFO - Epoch: 263
+2023-01-05 16:39:05,167 - mytest - INFO - Train loss: 0.8476
+2023-01-05 16:39:18,415 - mytest - INFO - average train acc: 77.61%
+2023-01-05 16:39:18,415 - mytest - INFO - average train loss: 0.8650
+2023-01-05 16:39:18,415 - mytest - INFO - average test acc: 78.64%
+2023-01-05 16:39:18,415 - mytest - INFO - average test loss: 0.8383
+2023-01-05 16:39:27,127 - mytest - INFO - Epoch: 264
+2023-01-05 16:39:27,127 - mytest - INFO - Train loss: 0.8458
+2023-01-05 16:39:41,343 - mytest - INFO - average train acc: 78.09%
+2023-01-05 16:39:41,343 - mytest - INFO - average train loss: 0.8605
+2023-01-05 16:39:41,343 - mytest - INFO - average test acc: 79.20%
+2023-01-05 16:39:41,343 - mytest - INFO - average test loss: 0.8334
+2023-01-05 16:39:51,678 - mytest - INFO - Epoch: 265
+2023-01-05 16:39:51,678 - mytest - INFO - Train loss: 0.8414
+2023-01-05 16:40:04,430 - mytest - INFO - average train acc: 78.16%
+2023-01-05 16:40:04,430 - mytest - INFO - average train loss: 0.8626
+2023-01-05 16:40:04,430 - mytest - INFO - average test acc: 79.25%
+2023-01-05 16:40:04,430 - mytest - INFO - average test loss: 0.8351
+2023-01-05 16:40:14,341 - mytest - INFO - Epoch: 266
+2023-01-05 16:40:14,341 - mytest - INFO - Train loss: 0.8421
+2023-01-05 16:40:26,951 - mytest - INFO - average train acc: 78.46%
+2023-01-05 16:40:26,952 - mytest - INFO - average train loss: 0.8625
+2023-01-05 16:40:26,952 - mytest - INFO - average test acc: 79.52%
+2023-01-05 16:40:26,952 - mytest - INFO - average test loss: 0.8350
+2023-01-05 16:40:38,349 - mytest - INFO - Epoch: 267
+2023-01-05 16:40:38,350 - mytest - INFO - Train loss: 0.8442
+2023-01-05 16:40:52,824 - mytest - INFO - average train acc: 76.56%
+2023-01-05 16:40:52,824 - mytest - INFO - average train loss: 0.8829
+2023-01-05 16:40:52,824 - mytest - INFO - average test acc: 77.88%
+2023-01-05 16:40:52,824 - mytest - INFO - average test loss: 0.8551
+2023-01-05 16:41:02,377 - mytest - INFO - Epoch: 268
+2023-01-05 16:41:02,378 - mytest - INFO - Train loss: 0.8630
+2023-01-05 16:41:16,879 - mytest - INFO - average train acc: 79.48%
+2023-01-05 16:41:16,879 - mytest - INFO - average train loss: 0.8520
+2023-01-05 16:41:16,879 - mytest - INFO - average test acc: 80.35%
+2023-01-05 16:41:16,879 - mytest - INFO - average test loss: 0.8234
+2023-01-05 16:41:26,372 - mytest - INFO - Epoch: 269
+2023-01-05 16:41:26,372 - mytest - INFO - Train loss: 0.8379
+2023-01-05 16:41:39,792 - mytest - INFO - average train acc: 75.92%
+2023-01-05 16:41:39,792 - mytest - INFO - average train loss: 0.8865
+2023-01-05 16:41:39,792 - mytest - INFO - average test acc: 76.90%
+2023-01-05 16:41:39,792 - mytest - INFO - average test loss: 0.8588
+2023-01-05 16:41:49,074 - mytest - INFO - Epoch: 270
+2023-01-05 16:41:49,074 - mytest - INFO - Train loss: 0.8609
+2023-01-05 16:42:02,519 - mytest - INFO - average train acc: 75.60%
+2023-01-05 16:42:02,519 - mytest - INFO - average train loss: 0.8797
+2023-01-05 16:42:02,519 - mytest - INFO - average test acc: 76.94%
+2023-01-05 16:42:02,519 - mytest - INFO - average test loss: 0.8519
+2023-01-05 16:42:11,168 - mytest - INFO - Epoch: 271
+2023-01-05 16:42:11,168 - mytest - INFO - Train loss: 0.8575
+2023-01-05 16:42:25,948 - mytest - INFO - average train acc: 75.12%
+2023-01-05 16:42:25,948 - mytest - INFO - average train loss: 0.8863
+2023-01-05 16:42:25,948 - mytest - INFO - average test acc: 75.89%
+2023-01-05 16:42:25,948 - mytest - INFO - average test loss: 0.8598
+2023-01-05 16:42:35,304 - mytest - INFO - Epoch: 272
+2023-01-05 16:42:35,305 - mytest - INFO - Train loss: 0.8662
+2023-01-05 16:42:51,717 - mytest - INFO - average train acc: 79.24%
+2023-01-05 16:42:51,717 - mytest - INFO - average train loss: 0.8475
+2023-01-05 16:42:51,717 - mytest - INFO - average test acc: 80.18%
+2023-01-05 16:42:51,717 - mytest - INFO - average test loss: 0.8201
+2023-01-05 16:43:01,436 - mytest - INFO - Epoch: 273
+2023-01-05 16:43:01,436 - mytest - INFO - Train loss: 0.8245
+2023-01-05 16:43:15,760 - mytest - INFO - average train acc: 77.73%
+2023-01-05 16:43:15,760 - mytest - INFO - average train loss: 0.8571
+2023-01-05 16:43:15,760 - mytest - INFO - average test acc: 78.66%
+2023-01-05 16:43:15,760 - mytest - INFO - average test loss: 0.8308
+2023-01-05 16:43:25,693 - mytest - INFO - Epoch: 274
+2023-01-05 16:43:25,693 - mytest - INFO - Train loss: 0.8305
+2023-01-05 16:43:37,193 - mytest - INFO - average train acc: 76.73%
+2023-01-05 16:43:37,193 - mytest - INFO - average train loss: 0.8538
+2023-01-05 16:43:37,193 - mytest - INFO - average test acc: 77.35%
+2023-01-05 16:43:37,193 - mytest - INFO - average test loss: 0.8281
+2023-01-05 16:43:47,606 - mytest - INFO - Epoch: 275
+2023-01-05 16:43:47,606 - mytest - INFO - Train loss: 0.8332
+2023-01-05 16:44:00,170 - mytest - INFO - average train acc: 78.57%
+2023-01-05 16:44:00,171 - mytest - INFO - average train loss: 0.8280
+2023-01-05 16:44:00,171 - mytest - INFO - average test acc: 79.25%
+2023-01-05 16:44:00,171 - mytest - INFO - average test loss: 0.8006
+2023-01-05 16:44:10,414 - mytest - INFO - Epoch: 276
+2023-01-05 16:44:10,414 - mytest - INFO - Train loss: 0.8101
+2023-01-05 16:44:22,295 - mytest - INFO - average train acc: 79.00%
+2023-01-05 16:44:22,296 - mytest - INFO - average train loss: 0.8184
+2023-01-05 16:44:22,296 - mytest - INFO - average test acc: 79.89%
+2023-01-05 16:44:22,296 - mytest - INFO - average test loss: 0.7901
+2023-01-05 16:44:32,157 - mytest - INFO - Epoch: 277
+2023-01-05 16:44:32,157 - mytest - INFO - Train loss: 0.8016
+2023-01-05 16:44:46,388 - mytest - INFO - average train acc: 78.50%
+2023-01-05 16:44:46,388 - mytest - INFO - average train loss: 0.8213
+2023-01-05 16:44:46,388 - mytest - INFO - average test acc: 79.62%
+2023-01-05 16:44:46,388 - mytest - INFO - average test loss: 0.7923
+2023-01-05 16:44:55,397 - mytest - INFO - Epoch: 278
+2023-01-05 16:44:55,398 - mytest - INFO - Train loss: 0.8042
+2023-01-05 16:45:11,853 - mytest - INFO - average train acc: 78.34%
+2023-01-05 16:45:11,853 - mytest - INFO - average train loss: 0.8271
+2023-01-05 16:45:11,853 - mytest - INFO - average test acc: 79.25%
+2023-01-05 16:45:11,853 - mytest - INFO - average test loss: 0.7977
+2023-01-05 16:45:20,352 - mytest - INFO - Epoch: 279
+2023-01-05 16:45:20,352 - mytest - INFO - Train loss: 0.8075
+2023-01-05 16:45:33,908 - mytest - INFO - average train acc: 77.52%
+2023-01-05 16:45:33,908 - mytest - INFO - average train loss: 0.8327
+2023-01-05 16:45:33,908 - mytest - INFO - average test acc: 78.57%
+2023-01-05 16:45:33,908 - mytest - INFO - average test loss: 0.8030
+2023-01-05 16:45:43,361 - mytest - INFO - Epoch: 280
+2023-01-05 16:45:43,361 - mytest - INFO - Train loss: 0.8115
+2023-01-05 16:45:58,483 - mytest - INFO - average train acc: 78.18%
+2023-01-05 16:45:58,483 - mytest - INFO - average train loss: 0.8436
+2023-01-05 16:45:58,483 - mytest - INFO - average test acc: 79.01%
+2023-01-05 16:45:58,483 - mytest - INFO - average test loss: 0.8149
+2023-01-05 16:46:06,512 - mytest - INFO - Epoch: 281
+2023-01-05 16:46:06,514 - mytest - INFO - Train loss: 0.8173
+2023-01-05 16:46:18,601 - mytest - INFO - average train acc: 78.00%
+2023-01-05 16:46:18,601 - mytest - INFO - average train loss: 0.8299
+2023-01-05 16:46:18,602 - mytest - INFO - average test acc: 79.32%
+2023-01-05 16:46:18,602 - mytest - INFO - average test loss: 0.8007
+2023-01-05 16:46:26,681 - mytest - INFO - Epoch: 282
+2023-01-05 16:46:26,682 - mytest - INFO - Train loss: 0.8067
+2023-01-05 16:46:38,252 - mytest - INFO - average train acc: 76.76%
+2023-01-05 16:46:38,252 - mytest - INFO - average train loss: 0.8551
+2023-01-05 16:46:38,252 - mytest - INFO - average test acc: 77.94%
+2023-01-05 16:46:38,252 - mytest - INFO - average test loss: 0.8269
+2023-01-05 16:46:45,466 - mytest - INFO - Epoch: 283
+2023-01-05 16:46:45,466 - mytest - INFO - Train loss: 0.8244
+2023-01-05 16:46:57,258 - mytest - INFO - average train acc: 74.82%
+2023-01-05 16:46:57,258 - mytest - INFO - average train loss: 0.8896
+2023-01-05 16:46:57,258 - mytest - INFO - average test acc: 75.99%
+2023-01-05 16:46:57,258 - mytest - INFO - average test loss: 0.8629
+2023-01-05 16:47:04,802 - mytest - INFO - Epoch: 284
+2023-01-05 16:47:04,802 - mytest - INFO - Train loss: 0.8520
+2023-01-05 16:47:16,425 - mytest - INFO - average train acc: 76.84%
+2023-01-05 16:47:16,425 - mytest - INFO - average train loss: 0.8726
+2023-01-05 16:47:16,425 - mytest - INFO - average test acc: 78.10%
+2023-01-05 16:47:16,425 - mytest - INFO - average test loss: 0.8457
+2023-01-05 16:47:24,132 - mytest - INFO - Epoch: 285
+2023-01-05 16:47:24,132 - mytest - INFO - Train loss: 0.8346
+2023-01-05 16:47:35,905 - mytest - INFO - average train acc: 76.83%
+2023-01-05 16:47:35,905 - mytest - INFO - average train loss: 0.8408
+2023-01-05 16:47:35,905 - mytest - INFO - average test acc: 77.78%
+2023-01-05 16:47:35,905 - mytest - INFO - average test loss: 0.8141
+2023-01-05 16:47:42,940 - mytest - INFO - Epoch: 286
+2023-01-05 16:47:42,941 - mytest - INFO - Train loss: 0.8130
+2023-01-05 16:47:54,986 - mytest - INFO - average train acc: 78.07%
+2023-01-05 16:47:54,986 - mytest - INFO - average train loss: 0.8339
+2023-01-05 16:47:54,986 - mytest - INFO - average test acc: 78.97%
+2023-01-05 16:47:54,986 - mytest - INFO - average test loss: 0.8062
+2023-01-05 16:48:03,101 - mytest - INFO - Epoch: 287
+2023-01-05 16:48:03,101 - mytest - INFO - Train loss: 0.8018
+2023-01-05 16:48:15,152 - mytest - INFO - average train acc: 78.23%
+2023-01-05 16:48:15,152 - mytest - INFO - average train loss: 0.8151
+2023-01-05 16:48:15,152 - mytest - INFO - average test acc: 79.25%
+2023-01-05 16:48:15,152 - mytest - INFO - average test loss: 0.7870
+2023-01-05 16:48:22,831 - mytest - INFO - Epoch: 288
+2023-01-05 16:48:22,832 - mytest - INFO - Train loss: 0.7885
+2023-01-05 16:48:34,425 - mytest - INFO - average train acc: 79.16%
+2023-01-05 16:48:34,425 - mytest - INFO - average train loss: 0.7877
+2023-01-05 16:48:34,425 - mytest - INFO - average test acc: 80.24%
+2023-01-05 16:48:34,425 - mytest - INFO - average test loss: 0.7589
+2023-01-05 16:48:41,611 - mytest - INFO - Epoch: 289
+2023-01-05 16:48:41,611 - mytest - INFO - Train loss: 0.7698
+2023-01-05 16:48:53,569 - mytest - INFO - average train acc: 80.98%
+2023-01-05 16:48:53,570 - mytest - INFO - average train loss: 0.7722
+2023-01-05 16:48:53,570 - mytest - INFO - average test acc: 82.00%
+2023-01-05 16:48:53,570 - mytest - INFO - average test loss: 0.7427
+2023-01-05 16:49:01,535 - mytest - INFO - Epoch: 290
+2023-01-05 16:49:01,535 - mytest - INFO - Train loss: 0.7599
+2023-01-05 16:49:13,108 - mytest - INFO - average train acc: 82.09%
+2023-01-05 16:49:13,108 - mytest - INFO - average train loss: 0.7681
+2023-01-05 16:49:13,108 - mytest - INFO - average test acc: 83.14%
+2023-01-05 16:49:13,108 - mytest - INFO - average test loss: 0.7387
+2023-01-05 16:49:20,783 - mytest - INFO - Epoch: 291
+2023-01-05 16:49:20,783 - mytest - INFO - Train loss: 0.7568
+2023-01-05 16:49:32,621 - mytest - INFO - average train acc: 78.92%
+2023-01-05 16:49:32,621 - mytest - INFO - average train loss: 0.7905
+2023-01-05 16:49:32,623 - mytest - INFO - average test acc: 80.03%
+2023-01-05 16:49:32,623 - mytest - INFO - average test loss: 0.7606
+2023-01-05 16:49:40,309 - mytest - INFO - Epoch: 292
+2023-01-05 16:49:40,309 - mytest - INFO - Train loss: 0.7694
+2023-01-05 16:49:51,759 - mytest - INFO - average train acc: 79.19%
+2023-01-05 16:49:51,759 - mytest - INFO - average train loss: 0.7910
+2023-01-05 16:49:51,759 - mytest - INFO - average test acc: 80.37%
+2023-01-05 16:49:51,759 - mytest - INFO - average test loss: 0.7613
+2023-01-05 16:49:58,999 - mytest - INFO - Epoch: 293
+2023-01-05 16:49:58,999 - mytest - INFO - Train loss: 0.7722
+2023-01-05 16:50:10,866 - mytest - INFO - average train acc: 78.15%
+2023-01-05 16:50:10,866 - mytest - INFO - average train loss: 0.8009
+2023-01-05 16:50:10,866 - mytest - INFO - average test acc: 79.15%
+2023-01-05 16:50:10,867 - mytest - INFO - average test loss: 0.7710
+2023-01-05 16:50:18,655 - mytest - INFO - Epoch: 294
+2023-01-05 16:50:18,655 - mytest - INFO - Train loss: 0.7784
+2023-01-05 16:50:30,275 - mytest - INFO - average train acc: 78.64%
+2023-01-05 16:50:30,275 - mytest - INFO - average train loss: 0.7863
+2023-01-05 16:50:30,275 - mytest - INFO - average test acc: 79.83%
+2023-01-05 16:50:30,276 - mytest - INFO - average test loss: 0.7565
+2023-01-05 16:50:37,998 - mytest - INFO - Epoch: 295
+2023-01-05 16:50:37,998 - mytest - INFO - Train loss: 0.7715
+2023-01-05 16:50:49,968 - mytest - INFO - average train acc: 78.22%
+2023-01-05 16:50:49,968 - mytest - INFO - average train loss: 0.7930
+2023-01-05 16:50:49,968 - mytest - INFO - average test acc: 79.32%
+2023-01-05 16:50:49,968 - mytest - INFO - average test loss: 0.7625
+2023-01-05 16:50:57,813 - mytest - INFO - Epoch: 296
+2023-01-05 16:50:57,813 - mytest - INFO - Train loss: 0.7750
+2023-01-05 16:51:09,472 - mytest - INFO - average train acc: 79.11%
+2023-01-05 16:51:09,472 - mytest - INFO - average train loss: 0.7773
+2023-01-05 16:51:09,475 - mytest - INFO - average test acc: 80.16%
+2023-01-05 16:51:09,475 - mytest - INFO - average test loss: 0.7469
+2023-01-05 16:51:17,056 - mytest - INFO - Epoch: 297
+2023-01-05 16:51:17,056 - mytest - INFO - Train loss: 0.7662
+2023-01-05 16:51:28,747 - mytest - INFO - average train acc: 78.72%
+2023-01-05 16:51:28,747 - mytest - INFO - average train loss: 0.7724
+2023-01-05 16:51:28,747 - mytest - INFO - average test acc: 79.64%
+2023-01-05 16:51:28,747 - mytest - INFO - average test loss: 0.7430
+2023-01-05 16:51:35,548 - mytest - INFO - Epoch: 298
+2023-01-05 16:51:35,548 - mytest - INFO - Train loss: 0.7609
+2023-01-05 16:51:47,410 - mytest - INFO - average train acc: 77.77%
+2023-01-05 16:51:47,410 - mytest - INFO - average train loss: 0.7836
+2023-01-05 16:51:47,410 - mytest - INFO - average test acc: 78.85%
+2023-01-05 16:51:47,410 - mytest - INFO - average test loss: 0.7541
+2023-01-05 16:51:54,738 - mytest - INFO - Epoch: 299
+2023-01-05 16:51:54,739 - mytest - INFO - Train loss: 0.7727
+2023-01-05 16:52:06,623 - mytest - INFO - average train acc: 77.85%
+2023-01-05 16:52:06,623 - mytest - INFO - average train loss: 0.7701
+2023-01-05 16:52:06,623 - mytest - INFO - average test acc: 79.14%
+2023-01-05 16:52:06,623 - mytest - INFO - average test loss: 0.7409
+2023-01-05 16:52:14,379 - mytest - INFO - Epoch: 300
+2023-01-05 16:52:14,379 - mytest - INFO - Train loss: 0.7598
+2023-01-05 16:52:26,815 - mytest - INFO - average train acc: 79.68%
+2023-01-05 16:52:26,815 - mytest - INFO - average train loss: 0.7589
+2023-01-05 16:52:26,815 - mytest - INFO - average test acc: 80.85%
+2023-01-05 16:52:26,815 - mytest - INFO - average test loss: 0.7286
