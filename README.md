@@ -1,4 +1,4 @@
-# AirFL against Byzantine attack
+# One-Bit-AirFL-Against-Byzantine-Attacks
 
 Dataset: MNIST
 
