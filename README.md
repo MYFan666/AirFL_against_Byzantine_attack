@@ -12,7 +12,7 @@ This paper integrates orthogonal frequency division multiplexing and SignSGD wit
 ### Citation
 
 ```
-@article{Ni2022Semi,
+@article{Miao2023One,
     author = {Yifan Miao, Hui Tian, and Wanli Ni},
     title = {One-Bit Aggregation for Over-the-Air Federated Learning Against Byzantine Attacks},
     journal = {IEEE Communication Letters},
