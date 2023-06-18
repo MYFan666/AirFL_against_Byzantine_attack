@@ -3,7 +3,7 @@
 **Note:** All code, data and supplementary material are used for the following paper:
 > **Title:** One-Bit Aggregation for Over-the-Air Federated Learning Against Byzantine Attacks
 >
-> **Author:** Yifan Miao, Hui Tian, and Wanli Ni
+> **Author:** Yifan Miao, Wanli Ni, and Hui Tian
 >
 > **Institution:**  Beijing University of Posts and Telecommunications
 
